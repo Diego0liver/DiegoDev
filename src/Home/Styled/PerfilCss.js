@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export const PerfilCss = styled.div`
 .corpo{background-color: #102226; 
-max-width: 1000px;
+width: 1000px;
 height: 620px;
 margin-left: 130px;
 border-radius: 15px;

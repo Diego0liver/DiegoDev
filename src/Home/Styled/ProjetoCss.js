@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export const ProjetoCss = styled.div`
 .corpo{background-color: rgba(16, 34, 38, 0.5); 
-max-width: 1000px;
+width: 1000px;
 height: 1100px;
 margin-left: 130px;
 border-radius: 15px;
