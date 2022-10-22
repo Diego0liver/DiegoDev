@@ -72,7 +72,7 @@ border-radius: 10px;
   border-left: 3px solid yellow;
   text-align:center;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 400px){
     .corpo{
         margin-left: 10px;
         height: 880px;
