@@ -72,7 +72,8 @@ button{
     filter:blur(100px);
     margin-top: -160px;
 }
-@media screen and (max-width: 720px){
+@media 
+(max-width: 720px){
     .corpo{
       margin-left: 10px;
       height: 1900px;
