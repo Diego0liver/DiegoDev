@@ -75,17 +75,32 @@ button{
 @media only screen and (max-width:  990px){
     .corpo{
       margin-left: 10px;
-      height: 1900px;
+      height: 3300px;
     }
     .cont1{
       display: block;
     }
     .maisprojetos{
-     margin-left: 200px;
+    align-items: center;
+    margin-top:50px
     
 }
 .card{
-  margin-left: 40px;
+  margin-left: 90px;
+  width: 80%;
+  text-align: center;
+  img{
+    width:100%;
+  }
+  h3{
+    font-size: 50px;
+  }
+  p{
+    font-size: 30px;
+  }
+  button{
+    font-size: 25px;
+  }
 }
     }
 `

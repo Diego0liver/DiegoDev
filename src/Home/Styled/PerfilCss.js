@@ -113,7 +113,7 @@ margin-left: 480px;
 @media only screen and (max-width: 990px){
     .corpo{
         margin-left: 10px;
-        height: 650px;
+        height: 750px;
         padding: 10px;
        
     }
