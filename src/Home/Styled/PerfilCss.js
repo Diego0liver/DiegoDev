@@ -113,7 +113,7 @@ margin-left: 480px;
 @media only screen and (max-width: 990px){
     .corpo{
         margin-left: 10px;
-        height: 750px;
+        height: 800px;
         padding: 10px;
        
     }
@@ -126,10 +126,21 @@ margin-left: 480px;
     p{
     font-size:30px
 }
+h3{
+    font-size: 40px;
+}
+b{
+    font-size: 40px;
+}
 .whats{
  position: fixed;
- width:30px;
+ width:60px;
 
+}
+.box{
+   img{
+    margin-top: 20px !important;
+   }
 }
 }
 

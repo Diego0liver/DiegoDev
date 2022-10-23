@@ -82,11 +82,11 @@ button{
     }
     .maisprojetos{
     align-items: center;
-    margin-top:50px
-    
+    margin-top:40px;
+    font-size: 30px;
 }
 .card{
-  margin-left: 90px;
+  margin-left: 110px;
   width: 80%;
   text-align: center;
   img{
