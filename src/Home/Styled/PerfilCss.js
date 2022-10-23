@@ -110,11 +110,12 @@ i{
  width:30px;
 margin-left: 480px;
 }
-@media only screen and (max-width: 600px){
+@media screen and (min-width: 400px){
     .corpo{
         margin-left: 10px;
         height: 650px;
         padding: 10px;
+       
     }
     .perfil{
         display: block;
@@ -123,7 +124,7 @@ margin-left: 480px;
     }
     }
     p{
-    font-size:16px
+    font-size:30px
 }
 .whats{
  position: fixed;
