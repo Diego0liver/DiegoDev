@@ -110,7 +110,7 @@ i{
  width:30px;
 margin-left: 480px;
 }
-@media screen and (max-width: 400px){
+@media only screen and (max-width: 990px){
     .corpo{
         margin-left: 10px;
         height: 650px;
