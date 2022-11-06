@@ -51,6 +51,9 @@ button{
   color: white;
   background-color: rgba(10, 164, 136, 1);
   cursor: pointer;
+  :hover{
+    box-shadow: 0 0 1em rgba(255, 255, 255, 0.527);
+  }
 }
 .maisprojetos{
   margin-left: 460px;

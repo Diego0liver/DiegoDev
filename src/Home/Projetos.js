@@ -2,7 +2,7 @@ import React from 'react'
 import { ProjetoCss } from './Styled/ProjetoCss'
 import Pedia from '../img/pedia.png'
 import Finan from '../img/financa.png'
-import Clima from '../img/clima.png'
+import API from '../img/proApi.png'
 import Crud from '../img/crud.png'
 
 
@@ -43,14 +43,14 @@ const Projetos = () => {
    </div>
    <div className='cont1'>
    <div className='card'>
-        <img alt='react' src={Clima}></img>
-        <h3>Previsão do tempo</h3>
-        <p>Projeto previsão do tempo feito com React.js consumindo API Weather, 
-          com axios, usando um pouco de bootstrap.</p>
+        <img alt='react' src={API}></img>
+        <h3>API em nodeJs</h3>
+        <p>API Json com metodos Create(criar), Read(ler), Update(atualizar) e Delete(apagar)
+         feita em Node.JS, Express e MariaDB para armazenar dados. Filtragem por categorias no Banco de dados</p>
           <div className='btns'>
-        <a href='https://github.com/Diego0liver/React-api'>
+        <a href='https://github.com/Diego0liver/api-nodeJs-crud'>
         <button>Codigo</button></a>
-        <a href='https://www.linkedin.com/posts/diego-oliveira-fonseca_bootstrap-js-react-activity-6902255834655776768-Zvle?utm_source=share&utm_medium=member_desktop'>
+        <a href='https://www.linkedin.com/feed/update/urn:li:activity:6992519189362012160/'>
         <button>Link</button></a></div>
     </div>
 

@@ -98,8 +98,9 @@ const Skin = () => {
 </div>
      </Slider>
     <div className='detalhes'>
-    🎓 Cursando tecnólogo em Desenvolvimento<br /> de sistema
-      e ingles pela faculdade UNINTER.
+    🎓 Cursando tecnólogo em <br />
+    Desenvolvimento de sistema no SENAC
+     
     </div>
     </div>
     </SkinCss>
