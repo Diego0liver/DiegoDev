@@ -14,7 +14,7 @@ const Contato = () => {
     const Contatos = '< /Contatos>'
   return (<> <ContatoCss>
   <div className='corpo'>
-  <h1 className='title'>{Contatos}</h1>
+  <h1 className='title'>{Contatox}</h1>
     <div className='topo'>
   <img alt='red' style={{width:'10px', margin:'3px'}} src={Vermelho} ></img>
   <img alt='amrelo' style={{width:'10px', margin:'3px'}} src={Amarelo} ></img>
