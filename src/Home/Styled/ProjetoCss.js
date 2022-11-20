@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const ProjetoCss = styled.div`
 .corpo{background-color: rgba(16, 34, 38, 0.5); 
 width: 1000px;
-height: 1100px;
+height: 1200px;
 margin-left: 130px;
 border-radius: 15px;
 color: white;
@@ -78,7 +78,7 @@ button{
 @media only screen and (max-width:  990px){
     .corpo{
       margin-left: 10px;
-      height: 3300px;
+      height: 3600px;
     }
     .cont1{
       display: block;

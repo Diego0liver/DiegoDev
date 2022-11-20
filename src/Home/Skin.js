@@ -44,7 +44,7 @@ const Skin = () => {
       <div className='desc'>
       <h2>Javascrip/ReactJs</h2>
       <p>
-       Conhecimento em JS com variavel, funções, map, números e operadores, if e else, lop, array, await,
+       Conhecimento em JS com variável, funções, map, números e operadores, if e else, lop, array, await,
         filter, manipulação de inputs e botão, e entre outro. O react tenho experiência em meus 
         projetos com hook, react router, uuid, props, axios para manipulação de Json com métodos
          http.
@@ -61,7 +61,7 @@ const Skin = () => {
       <h2>Bootstrap/Styled-components</h2>
       <p>
        Conhecimento em Bootstrap, React-Bootstrap e styled-components 
-       para estilização de paginas e aplicações web através do html e do ReactJs.
+       para estilização de páginas  e aplicações web através do html e do ReactJs.
        </p>
      </div>
     </div>
@@ -89,19 +89,15 @@ const Skin = () => {
       <div className='desc'>
       <h2>NodeJs/MariaDb</h2>
       <p>
-       Basico em nodeJs express para criacao de API e mariaBd para
-       armazenamentos de dados
+      Básico  em nodeJs express para criação de endpoint API e mariaBd para
+       armazenamentos de dados, comandos mysql
        </p>
      </div>
     </div>
   </div>
 </div>
      </Slider>
-    <div className='detalhes'>
-    🎓 Cursando tecnólogo em <br />
-    Desenvolvimento de sistema no SENAC
-     
-    </div>
+  
     </div>
     </SkinCss>
   )

@@ -9,7 +9,12 @@ margin-left: 130px;
 border-radius: 15px;
 color: white;
 border: 2px solid rgba(10, 164, 136, 1);
-border-style: dashed solid dashed solid;}
+border-style: dashed solid dashed solid;
+@media only screen and (max-width:  990px){
+  margin-left: 10px;
+  height: 800px;
+}
+}
 .title{
     text-align:center;
     background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
@@ -58,16 +63,20 @@ border-style: dashed solid dashed solid;}
       transform:translateY(-280px);
       transition:all .9s;
     }
+    
 }
-.detalhes{
-      background-color:rgba(255, 255, 0, 0.100);
-      text-align: center;
-      margin: 35px;
-      color: white;
-      width: 350px;
-      padding: 10px;
-      border-left: 2px solid yellow;
-      border-radius: 5px;
-      
+
+    @media only screen and (max-width:  990px){
+      .card{
+        height: 550px;
+        .card-img:hover{
+      transform:translateY(-580px);
+      transition:all .9s;
+    }
+      }
+     .desc{
+      font-size: 30px;
+     }
+ 
     }
 `

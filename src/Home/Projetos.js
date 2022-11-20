@@ -1,7 +1,7 @@
 import React from 'react'
 import { ProjetoCss } from './Styled/ProjetoCss'
 import Pedia from '../img/pedia.png'
-import Finan from '../img/financa.png'
+import Finan from '../img/ecomme.png'
 import API from '../img/proApi.png'
 import Crud from '../img/crud.png'
 
@@ -31,9 +31,10 @@ const Projetos = () => {
     </div>
     <div className='card'>
         <img alt='react' src={Finan}></img>
-        <h3>Controle financeiro</h3>
-        <p>Projeto Controle financeiro feito em React Js usando Hook.
-        usei localstorege para armazenar informacoes e vercel para deploy</p>
+        <h3>Sistema delivery</h3>
+        <p>Sistema delivery feito em ReactJs, Json-server para simular uma API
+ Para manipular as rotas usei o React Router .
+Utilizei axios para manipular a API. E também o styled-components. O carrinho de compras do sistema foi feito em react-use-cart</p>
         <div className='btns'>
         <a href='https://github.com/Diego0liver/controleFinacaReact'>
         <button>Codigo</button></a>

@@ -26,7 +26,7 @@ const Perfil = () => {
        Comecei com um curso full-stack Js do Programador BR e decidi focar em front-end<br/>
        Desde então me apaixonei em escrever códigos e aprender cada vez mais<br />
        Trabalho com <i>react Js</i>, tenho experiência com <i>projetos </i>próprios, estou<br />
-       a procura de uma oportunidade de primeiro emprego na area.<br />
+       a procura de uma oportunidade de primeiro emprego na área.<br />
        Sonho em um dia se tornar um grande desenvolvedor.</p>
         </div>
       <img alt='dev' style={{width:'200px',
