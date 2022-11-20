@@ -109,6 +109,7 @@ i{
  position: fixed;
  width:30px;
 margin-left: 480px;
+z-index: 3;
 }
 @media only screen and (max-width: 990px){
     .corpo{
@@ -135,10 +136,9 @@ b{
 .whats{
  position: fixed;
  width:60px;
+
  @media only screen and (max-width:  990px){
-    width:100px;
-   margin-top: 650px;
-   margin-left: 10px;
+    visibility: hidden;
  }
 
 }

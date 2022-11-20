@@ -10,8 +10,8 @@ margin-left: 130px;
 border-radius: 15px;
 color: white;
 border: 2px solid rgba(10, 164, 136, 1);
-border-style: dashed solid solid solid;
-margin-bottom:10px;}
+border-style: dashed solid dashed solid;
+}
 .title{
     text-align:center;
     background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);

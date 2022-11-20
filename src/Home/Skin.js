@@ -45,8 +45,8 @@ const Skin = () => {
       <h2>Javascrip/ReactJs</h2>
       <p>
        Conhecimento em JS com variável, funções, map, números e operadores, if e else, lop, array, await,
-        filter, manipulação de inputs e botão, e entre outro. O react tenho experiência em meus 
-        projetos com hook, react router, uuid, props, axios para manipulação de Json com métodos
+        filter, manipulação de inputs e botão, e entre outro. O react tenho experiência em com hook
+        (useState, useEffect, useContext), react router, uuid, props, axios para manipulação de Json com métodos
          http.
        </p>
      </div>
