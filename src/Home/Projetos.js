@@ -36,9 +36,9 @@ const Projetos = () => {
  Para manipular as rotas usei o React Router .
 Utilizei axios para manipular a API. E também o styled-components. O carrinho de compras do sistema foi feito em react-use-cart</p>
         <div className='btns'>
-        <a href='https://github.com/Diego0liver/controleFinacaReact'>
+        <a href='https://github.com/Diego0liver/e-commerce-react'>
         <button>Codigo</button></a>
-        <a href='https://teste1000-ruddy.vercel.app/'>
+        <a href='https://www.linkedin.com/posts/diego-oliveira-fonseca_css-reactjs-react-activity-6999821608529879040-H-jB?utm_source=share&utm_medium=member_desktop'>
         <button>Link</button></a></div>
     </div>
    </div>
