@@ -8,6 +8,7 @@ import Js from '../img/js.png'
 import Sty from '../img/style.png'
 import Git from '../img/git.png'
 import Node from '../img/node.png'
+import Logic from '../img/logic.png'
 
 
 const Skin = () => {
@@ -90,7 +91,20 @@ const Skin = () => {
       <h2>NodeJs/MariaDb</h2>
       <p>
       Básico  em nodeJs express para criação de endpoint API e mariaBd para
-       armazenamentos de dados, comandos mysql
+       armazenamentos de dados, comandos mysql.
+       </p>
+     </div>
+    </div>
+  </div>
+</div>
+<div className='card-corpo'>
+  <div className='card'>
+    <div className='card-img'>
+      <img alt='dev' src={Logic}></img>
+      <div className='desc'>
+      <h2>Logica de Programação</h2>
+      <p>
+     Conhecimento em Logica de Programação, POO(Programação Orientada a Objetos), SOLID & design patterns.
        </p>
      </div>
     </div>

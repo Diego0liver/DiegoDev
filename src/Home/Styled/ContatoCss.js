@@ -33,7 +33,8 @@ border-style: dashed solid solid solid;
     margin-left: 350px;
     }
 .conteinerContato{
-   background-color: #0b171b;
+    
+background: radial-gradient(circle, rgba(11,23,27,1) 0%, rgba(16,34,38,1) 100%);
    width: 280px;
    padding: 10px;
    margin-left: 350px;
@@ -42,13 +43,35 @@ border-style: dashed solid solid solid;
    img{
     margin: 5px;
     cursor: pointer;
+    :hover{
+        animation: btn 1s linear infinite;
+        @keyframes btn {
+    from {transform: translateY(0);}
+    50% {transform: translateY(-15px);}
+    to{transform: translateY(0);}
+}
+  }
    }
 }
 p{
     text-align: center;
-    @media only screen and (max-width:  990px){
-font-size: 25px;
+}
+@media only screen and (max-width:  990px){
+    img{
+        width: 100px;
     }
+    p{
+        font-size: 30px;
+    }
+    .conteinerContato{
+    width: 320px;
+}
+.corpo{
+    height: 350px;
+}
+.topo{
+    width: 338px !important;
+}
 }
 
 `
