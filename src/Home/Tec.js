@@ -18,7 +18,7 @@ const Tec = () => {
   return (
     <TecCss>
     <div className='skil'>
-    <h1>Linguagens</h1>
+    <h1 id='skil'>Linguagens</h1>
     <p>Experencia em projetos proprios com as tecnologias:</p>
     <div className='card-corpo'>
     <div className='card'>

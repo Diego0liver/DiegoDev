@@ -16,8 +16,8 @@ const Projetos = () => {
   return (
     <ProjetoCss>
     <div className='conteiner'>
-     <h1>Projetos Proprios</h1>
-     (Ao clicar na imagem abrira um link para o video do projeto)
+     <h1 id='proj'>Projetos Proprios</h1>
+     (No README.md de cada projeto tem um link para o video)
      <div className='corpo'>
       <div className='card'>
        <h3>Formulario FullStack</h3>
@@ -31,8 +31,8 @@ const Projetos = () => {
        Formualrio FullStack com reatcJS e nodeJS. <br />
        PDFMake para gerar um PDF do Formulario.
        <div className='btns'>
-        <button>FrontEnd</button>
-        <button>BackEnd</button>
+        <a href='https://github.com/Diego0liver/FormularioFrontEndJs'><button>FrontEnd</button></a>
+        <a href='https://github.com/Diego0liver/FormularioBacktEndJs'><button>BackEnd</button></a>
        </div>
       </div>
 
@@ -48,8 +48,8 @@ const Projetos = () => {
        Sistema de login FullStack com reatcJS e nodeJS. <br />
        Com rotas protegida e token JWT.
        <div className='btns'>
-        <button>FrontEnd</button>
-        <button>BackEnd</button>
+        <a href='https://github.com/Diego0liver/loginFrontendJs'><button>FrontEnd</button></a>
+        <a href='https://github.com/Diego0liver/loginBackendJs'><button>BackEnd</button></a>
        </div>
       </div>
 
@@ -64,7 +64,7 @@ const Projetos = () => {
        Sistema Dashboard frontend NextJs. <br />
        Com chartJs e json-server.
        <div className='btns'>
-        <button>FrontEnd</button>
+        <a href='https://github.com/Diego0liver/dashboardNextjs'><button>FrontEnd</button></a>
        </div>
       </div>
 
@@ -79,7 +79,7 @@ const Projetos = () => {
        Sistema E-commerce frontend ReactJs. <br />
        Com react-use-cart e json-server.
        <div className='btns'>
-        <button>FrontEnd</button>
+      <a href='https://github.com/Diego0liver/e-commerce-react'><button>FrontEnd</button></a>
        </div>
       </div>
      </div>

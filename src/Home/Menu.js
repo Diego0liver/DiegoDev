@@ -26,9 +26,9 @@ const Menu = () => {
         <div className='eu'>
         <img alt='eu' style={{width:100}} src={Eu} ></img>
         <ul>
-          <li>Pefil</li>
-          <li>Linguagens</li>
-          <li>Projetos</li>
+          <a href='https://drive.google.com/file/d/1qdUk8M8YaRyYFZQDTRjUAfxsKboD1_t3/view?usp=share_link'><li>Pefil</li></a>
+          <a href='#skil'><li>Linguagens</li></a>
+          <a href='#proj'><li>Projetos</li></a>
         </ul>
         </div>
         <div className='btn-menu'>

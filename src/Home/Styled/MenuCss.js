@@ -58,4 +58,8 @@ button{
     background-color: #5d6ba7;
     cursor: pointer;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 `
