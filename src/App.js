@@ -1,15 +1,17 @@
 import React from 'react'
-import Skin from './Home/Skin'
-import Projetos from './Home/Projetos'
 import Perfil from './Home/Perfil'
-import Contato from './Home/Contato'
+import Tec from './Home/Tec'
+import Projetos from './Home/Projetos'
+import Menu from './Home/Menu'
+
+
 
 const App = () => {
   return (<>
+    <Menu />
     <Perfil />
-    <Skin />
+    <Tec />
     <Projetos />
-    <Contato />
     </>
   )
 }

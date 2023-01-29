@@ -2,22 +2,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0b171b;
   font-family: 'Baloo 2', cursive;
+  /* color: #e4e4e4; */
 }
-button{
-  font-family: 'Baloo 2', cursive;
-}
-
-/* Color Theme Swatches in Hex */
-
-
-/* Color Theme Swatches in RGBA */
-.color-5-1-rgba { color: rgba(10, 164, 136, 1); }
-.color--5-2-rgba { color: rgba(0, 57, 50, 1); }
-.color--5-3-rgba { color: rgba(31, 44, 52, 1); }
-.color--5-4-rgba { color: rgba(16, 34, 38, 1); }
-.color--5-5-rgba { color: rgba(13, 28, 33, 1); }
-
-/* Color Theme Swatches in HSLA */
 

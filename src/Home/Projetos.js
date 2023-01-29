@@ -1,78 +1,90 @@
 import React from 'react'
-import { ProjetoCss } from './Styled/ProjetoCss'
-import Pedia from '../img/pedia.png'
-import Finan from '../img/ecomme.png'
-import API from '../img/proApi.png'
-import Crud from '../img/crud.png'
-
+import { ProjetoCss } from './Styled/ProjetosCss'
+import ReactJs from '../img/react.png'
+import NodeJs from '../img/nodejs.png'
+import Forms from '../img/oc.png'
+import Loog from '../img/ocs.png'
+import Mysql from '../img/mysql.png'
+import Next from '../img/nextjs.png'
+import Dashs from '../img/dashs.png'
+import Shart from '../img/chart.jpeg'
+import Ecom from '../img/ecm.png'
+import Styl from '../img/styled.png'
 
 
 const Projetos = () => {
+  return (
+    <ProjetoCss>
+    <div className='conteiner'>
+     <h1>Projetos Proprios</h1>
+     (Ao clicar na imagem abrira um link para o video do projeto)
+     <div className='corpo'>
+      <div className='card'>
+       <h3>Formulario FullStack</h3>
+       <hr />
+       <img alt='react' className='img' src={Forms} ></img>
+       <div>
+       <img alt='react' style={{width:30, margin:10}} src={ReactJs} ></img>
+       <img alt='react' style={{width:40, margin:7}} src={NodeJs} ></img>
+       <img alt='next' style={{width:40, margin:10}} src={Mysql} ></img>
+       </div>
+       Formualrio FullStack com reatcJS e nodeJS. <br />
+       PDFMake para gerar um PDF do Formulario.
+       <div className='btns'>
+        <button>FrontEnd</button>
+        <button>BackEnd</button>
+       </div>
+      </div>
 
-  const Projetos = '< /projetos >'
-   
-  return (<ProjetoCss><div className='corpo'>
-     <div className='bola'></div>
-     <h1 className='title'>{Projetos}</h1>
+      <div className='card'>
+       <h3>Sistema de login FullStack</h3>
+       <hr />
+       <img alt='react' className='img' src={Loog} ></img>
+       <div>
+       <img alt='react' style={{width:30, margin:10}} src={ReactJs} ></img>
+       <img alt='react' style={{width:40, margin:7}} src={NodeJs} ></img>
+       <img alt='next' style={{width:40, margin:10}} src={Mysql} ></img>
+       </div>
+       Sistema de login FullStack com reatcJS e nodeJS. <br />
+       Com rotas protegida e token JWT.
+       <div className='btns'>
+        <button>FrontEnd</button>
+        <button>BackEnd</button>
+       </div>
+      </div>
 
-   <div className='cont1'>
-   <div className='card'>
-        <img alt='beer' src={Pedia}></img>
-        <h3>Biblioteca de cerveja</h3>
-        <p>Mini blog de cervejas usando HTML, css, Js<br />
-        Com dominio personalizado tag de google analict<br />
-        Usei Js para filtra pesquisa de cerveja e para cookies</p>
-        <div className='btns'>
-        <a href='https://github.com/Diego0liver/BeerPedia'>
-         <button>Codigo</button> </a>
-        <a href='http://bibliotecabeer.com.br/'>
-        <button>Link</button> </a>
-          </div>  
-    </div>
-    <div className='card'>
-        <img alt='react' src={Finan}></img>
-        <h3>Sistema delivery</h3>
-        <p>Sistema delivery feito em ReactJs, Json-server para simular uma API
- Para manipular as rotas usei o React Router .
-Utilizei axios para manipular a API. E também o styled-components. O carrinho de compras do sistema foi feito em react-use-cart</p>
-        <div className='btns'>
-        <a href='https://github.com/Diego0liver/e-commerce-react'>
-        <button>Codigo</button></a>
-        <a href='https://www.linkedin.com/posts/diego-oliveira-fonseca_css-reactjs-react-activity-6999821608529879040-H-jB?utm_source=share&utm_medium=member_desktop'>
-        <button>Link</button></a></div>
-    </div>
-   </div>
-   <div className='cont1'>
-   <div className='card'>
-        <img alt='react' src={API}></img>
-        <h3>API em nodeJs</h3>
-        <p>API Json com metodos Create(criar), Read(ler), Update(atualizar) e Delete(apagar)
-         feita em Node.JS, Express e MariaDB para armazenar dados. Filtragem por categorias no Banco de dados</p>
-          <div className='btns'>
-        <a href='https://github.com/Diego0liver/api-nodeJs-crud'>
-        <button>Codigo</button></a>
-        <a href='https://www.linkedin.com/feed/update/urn:li:activity:6992519189362012160/'>
-        <button>Link</button></a></div>
-    </div>
+      <div className='card'>
+       <h3>DashBoard frontend</h3>
+       <hr />
+       <img alt='react' className='img' src={Dashs} ></img>
+       <div>
+       <img alt='react' style={{width:30, margin:10}} src={Next} ></img>
+       <img alt='react' style={{width:60}} src={Shart} ></img>
+       </div>
+       Sistema Dashboard frontend NextJs. <br />
+       Com chartJs e json-server.
+       <div className='btns'>
+        <button>FrontEnd</button>
+       </div>
+      </div>
 
-    <div className='card'>
-        <img alt='react' src={Crud}></img>
-        <h3>Lista de contatos(Crud)</h3>
-        <p>Crud feito em react js, usando Jason-serve para simular uma API
-         O crud e feito com styled-components para estilizar o pagina
-         Usando axios para manipular API 
-         Usei uuid para gerar um novo ID 
-        Usando react router para manipular rotas..</p>
-        <div className='btns'>
-        <a href='https://github.com/Diego0liver/Crud-Json-serve'>
-        <button>Codigo</button></a>
-        <a href='https://www.linkedin.com/posts/diego-oliveira-fonseca_reactjs-frontend-js-activity-6986047350876061696-sJwC?utm_source=share&utm_medium=member_desktop'>
-        <button>Link</button></a></div>
+      <div className='card'>
+       <h3>E-commerce frontend</h3>
+       <hr />
+       <img alt='react' className='img' src={Ecom} ></img>
+       <div>
+       <img alt='react' style={{width:30, margin:10}} src={ReactJs} ></img>
+       <img alt='react' style={{width:30, margin:7}} src={Styl} ></img>
+       </div>
+       Sistema E-commerce frontend ReactJs. <br />
+       Com react-use-cart e json-server.
+       <div className='btns'>
+        <button>FrontEnd</button>
+       </div>
+      </div>
+     </div>
+     <a href='https://github.com/Diego0liver?tab=repositories'><button>Mais projetos!</button></a>
     </div>
-   </div>
-  
-   <a href='https://github.com/Diego0liver?tab=repositories'>
-   <button className='maisprojetos'>+ Projetos</button></a></div>
     </ProjetoCss>
   )
 }
