@@ -32,5 +32,16 @@ export const PerfilCss = styled.div`
         margin: 10px;
     }
 }
+@media only screen and (max-width: 1200px){
+    .perfil{
+    h1{
+        margin-top: 100px;
+        font-size: 60px;
+    }
+    button{
+        font-size: 30px;
+    }
+}
+}
 `
 

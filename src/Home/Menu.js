@@ -20,11 +20,11 @@ const Menu = () => {
     <nav className={mob}>
         <div>
         <button onClick={dropDow}>
-          <img alt='menu' style={{width:25}} src={Menus}></img>
+          <img className='btn-men' alt='menu' src={Menus}></img>
         </button>
         </div>
         <div className='eu'>
-        <img alt='eu' style={{width:100}} src={Eu} ></img>
+        <img alt='eu' className='img-foto' src={Eu} ></img>
         <ul>
           <a href='https://drive.google.com/file/d/1qdUk8M8YaRyYFZQDTRjUAfxsKboD1_t3/view?usp=share_link'><li>Pefil</li></a>
           <a href='#skil'><li>Linguagens</li></a>
@@ -32,9 +32,9 @@ const Menu = () => {
         </ul>
         </div>
         <div className='btn-menu'>
-        <a href='https://github.com/Diego0liver'><img alt='next' style={{width:30, margin:5}} src={Github} ></img></a>
-        <a href='https://www.linkedin.com/in/diego-oliveira-fonseca/'><img alt='react' style={{width:30, margin:5}} src={Linkdin} ></img></a>
-        <a href='https://api.whatsapp.com/send?phone=5544997087807'><img alt='next' style={{width:30, margin:5}} src={Whats} ></img></a>
+        <a href='https://github.com/Diego0liver'><img alt='next' className='btn-contato' src={Github} ></img></a>
+        <a href='https://www.linkedin.com/in/diego-oliveira-fonseca/'><img alt='react' className='btn-contato' src={Linkdin} ></img></a>
+        <a href='https://api.whatsapp.com/send?phone=5544997087807'><img alt='next' className='btn-contato' src={Whats} ></img></a>
         </div>
     </nav>    
     </MenuCss>

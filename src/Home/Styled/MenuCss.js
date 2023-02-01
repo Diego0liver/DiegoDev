@@ -17,7 +17,6 @@ button{
 }
 }
 
-
 .containerOf{
 height: 220px;
 background-color:  #5d6ba7;
@@ -46,6 +45,9 @@ ul{
     color: white;
     font-weight: bold;
 }
+.img-foto{
+    width: 100px;
+}
 }
 .btn-menu{
      display: flex;
@@ -61,5 +63,35 @@ button{
 a{
     text-decoration: none;
     color: white;
+}
+.btn-contato{
+    width:30px; 
+    margin:5px
+}
+.btn-men{
+        width:25px
+    }
+
+    
+@media only screen and (max-width: 1200px){
+    .btn-men{
+        width:60px
+    }
+    .btn-contato{
+    width:60px; 
+   margin-top: -25px;
+}
+.containerOf{
+    height: 400px;
+    .img-foto{
+    width: 200px;
+    margin-bottom: 20px;
+}
+}
+.eu{
+    li{
+        font-size: 35px;
+    }
+}
 }
 `

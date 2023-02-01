@@ -10,6 +10,11 @@ import Dashs from '../img/dashs.png'
 import Shart from '../img/chart.jpeg'
 import Ecom from '../img/ecm.png'
 import Styl from '../img/styled.png'
+import Blog from '../img/blog.png'
+import Beer from '../img/beer.png'
+import Taghtml from '../img/html.png'
+import Css from '../img/css.png'
+import Js from '../img/js.png'
 
 
 const Projetos = () => {
@@ -37,6 +42,23 @@ const Projetos = () => {
       </div>
 
       <div className='card'>
+       <h3>Blog FullStack</h3>
+       <hr />
+       <img alt='react' className='img' src={Blog} ></img>
+       <div>
+       <img alt='react' style={{width:30, margin:10}} src={ReactJs} ></img>
+       <img alt='react' style={{width:40, margin:7}} src={NodeJs} ></img>
+       <img alt='next' style={{width:40, margin:10}} src={Mysql} ></img>
+       </div>
+      Blog FullStack com reatcJS e nodeJS. <br />
+      Multer para mandar imagem pro banco de dados.
+       <div className='btns'>
+        <a href='https://github.com/Diego0liver/BlogFrontEndJs'><button>FrontEnd</button></a>
+        <a href='https://github.com/Diego0liver/BlogBackEndJs'><button>BackEnd</button></a>
+       </div>
+      </div>
+
+      <div className='card'>
        <h3>Sistema de login FullStack</h3>
        <hr />
        <img alt='react' className='img' src={Loog} ></img>
@@ -52,6 +74,8 @@ const Projetos = () => {
         <a href='https://github.com/Diego0liver/loginBackendJs'><button>BackEnd</button></a>
        </div>
       </div>
+
+
 
       <div className='card'>
        <h3>DashBoard frontend</h3>
@@ -82,9 +106,30 @@ const Projetos = () => {
       <a href='https://github.com/Diego0liver/e-commerce-react'><button>FrontEnd</button></a>
        </div>
       </div>
+
+      <div className='card'>
+       <h3>Biblioteca Beer Js</h3>
+       <hr />
+       <img alt='react' className='img' src={Beer} ></img>
+       <div>
+       <img alt='react' style={{width:30, margin:10}} src={Taghtml} ></img>
+       <img alt='react' style={{width:30, margin:10}} src={Css} ></img>
+       <img alt='next' style={{width:30, margin:10}} src={Js} ></img>
+       </div>
+      Pequena biblioteca de cerveja <br />
+      feita com Html, Css e JavaScript.
+       <div className='btns'>
+        <a href='https://github.com/Diego0liver/BeerPedia'><button>Codigo</button></a>
+        <a href='http://bibliotecabeer.com.br/'><button>Site</button></a>
+       </div>
+      </div>
+
      </div>
+
      <a href='https://github.com/Diego0liver?tab=repositories'><button>Mais projetos!</button></a>
     </div>
+
+
     </ProjetoCss>
   )
 }

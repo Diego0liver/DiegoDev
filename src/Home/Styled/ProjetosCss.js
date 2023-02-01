@@ -85,4 +85,11 @@ hr{
         margin: 10px;
     }
  }   
+
+ @media only screen and (max-width: 1200px){
+    .btns{
+ button{
+        font-size: 30px;
+    }}
+}
 `

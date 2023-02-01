@@ -29,15 +29,27 @@ export const TecCss = styled.div`
     margin: 5px;
     margin-left: auto;
     margin-right: auto;
-    
+   
 }
-/* .card:hover{
-    border: 1px solid #e4e4e4;
-} */
+
 .card-corpo{
     display:flex;
     margin-left: auto;
     margin-right: auto;
     flex-wrap:wrap ;
 }
+
+@media only screen and (max-width: 1200px){
+    .card{
+        height: 500px;
+    max-width: 500px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    }
+}
+
+
 `
