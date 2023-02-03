@@ -15,7 +15,21 @@ button{
 .eu{
     display: none;
 }
+animation: drop 1s ease-out ;
 }
+
+@keyframes drop {
+  100% {
+    transform: translateY(0%);
+  }
+  0% {
+    transform: translateY(-50%);
+  }
+  
+}
+
+  
+
 
 .containerOf{
 height: 220px;
@@ -48,7 +62,21 @@ ul{
 .img-foto{
     width: 100px;
 }
+animation: dropdown 1s ease-in ;
 }
+@keyframes dropdown {
+  0% {
+    transform: translateY(-80%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+  
+}
+
+
+
+
 .btn-menu{
      display: flex;
      justify-content: flex-end;

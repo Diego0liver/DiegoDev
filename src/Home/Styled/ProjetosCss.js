@@ -91,5 +91,11 @@ hr{
  button{
         font-size: 30px;
     }}
+ .mais-proj{
+    font-size: 30px;
+ }   
+ h1{
+    font-size: 50px
+ }
 }
 `

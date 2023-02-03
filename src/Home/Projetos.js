@@ -126,7 +126,7 @@ const Projetos = () => {
 
      </div>
 
-     <a href='https://github.com/Diego0liver?tab=repositories'><button>Mais projetos!</button></a>
+     <a href='https://github.com/Diego0liver?tab=repositories'><button className='mais-proj'>Mais projetos!</button></a>
     </div>
 
 

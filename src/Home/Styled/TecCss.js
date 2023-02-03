@@ -49,6 +49,10 @@ export const TecCss = styled.div`
     margin-right: auto;
     font-size: 30px;
     }
+
+    h1{
+    font-size: 50px
+ }   
 }
 
 
