@@ -57,7 +57,7 @@ const Tec = () => {
         <img alt='next' style={{width:40, margin:10}} src={Mysql} ></img>
         </div>
         <b>NodeJS</b> basico para criacao de API's, criacao de endpoints CREATE, READ, UPDATE e DELETE. Conhecimento
-        com bibliotecas Express, sequelize, multer, JWT, cors, dotenv e nodemon. <b>MySQL</b> como banco de dados para criacao
+        com bibliotecas Express, sequelize, multer, JWT, nodemailer, cors, dotenv e nodemon. <b>MySQL</b> como banco de dados para criacao
         de tabelas no workbench e comandos SQL.
     </div>
 

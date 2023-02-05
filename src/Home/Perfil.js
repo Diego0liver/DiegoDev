@@ -12,7 +12,7 @@ const Perfil = () => {
       <h1>Diego Oliveira Fonseca</h1>
       <h3>Programador web</h3>
       <p>Programador web autodidata, conclui curso ProgramadorBr fullstack em JavaScript,
-        atualmente estudo urso Técnico em desenvolvimento web na Unopar,
+        atualmente estudo curso Técnico em desenvolvimento web na Unopar,
          moro em Maringá Pr, tenho 27 anos de idade, estudo programação a 1 ano, conhecimento e 
          experiência em projetos próprios com as linguagem JavaScript, React Js, NextJs, NodeJs.
          Banco de dados MySQL e também ferramentas como o bootstrap, sass, Git|GitHub, API e Figma.
