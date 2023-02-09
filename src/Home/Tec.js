@@ -12,7 +12,7 @@ import Github from '../img/github.png'
 import Boots from '../img/boots.png'
 import Styl from '../img/styled.png'
 import Sass from '../img/sass.png'
-
+import Type from '../img/type.png'
 
 const Tec = () => {
   return (
@@ -35,10 +35,12 @@ const Tec = () => {
     <div className='card'>
         <div>
         <img alt='js' style={{width:30}} src={Js} ></img>
+        <img alt='js' style={{width:30}} src={Type} ></img>
         </div>
         Conhecimento em <b>JavaScript</b> com criacao de variaveis, funcoes, arrays, manipulacao de arrays, com filter,
         reduce, map, forEtch, some, slice, toString, length, find... Conhecimento em callback, manipulacao de API,
-        localStorege, Json, props, Datas, async/await, promise, loop, if/else, try/catch e tratamento de erros.
+        localStorege, Json, props, Datas, async/await, promise, loop, if/else, try/catch e tratamento 
+        de erros. <br/><b>Typescript</b> para tipagem. 
     </div>
 
     <div className='card'>
