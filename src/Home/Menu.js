@@ -26,7 +26,7 @@ const Menu = () => {
         <div className='eu'>
         <img alt='eu' className='img-foto' src={Eu} ></img>
         <ul>
-          <a href='https://drive.google.com/file/d/1qdUk8M8YaRyYFZQDTRjUAfxsKboD1_t3/view?usp=share_link'><li>Pefil</li></a>
+          <a href='https://drive.google.com/file/d/1qdUk8M8YaRyYFZQDTRjUAfxsKboD1_t3/view?usp=share_link'><li>Perfil</li></a>
           <a href='#skil'><li>Linguagens</li></a>
           <a href='#proj'><li>Projetos</li></a>
         </ul>
