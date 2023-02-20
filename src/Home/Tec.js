@@ -48,7 +48,7 @@ const Tec = () => {
         <img alt='react' style={{width:30, margin:10}} src={ReactJs} ></img>
         <img alt='next' style={{width:25, margin:10}} src={Next} ></img>
         </div>
-        Conhecimento em <b>ReactJS</b> manipulacao em hooks como useState, useEffect e useContenxt. Conhecimento com 
+        Conhecimento em <b>ReactJS</b> & <b>ReactNative</b> manipulacao em hooks como useState, useEffect e useContenxt. Conhecimento com 
         bibliotecas do react como o react-router, steled-components, bootstrap, react-hook-forms, react-use-cart,
         chartJs, PDFmake, axios, react-toastify e framework <b>NextJs</b> no front-end.
     </div><br />

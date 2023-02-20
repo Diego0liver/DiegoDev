@@ -11,10 +11,8 @@ import Shart from '../img/chart.jpeg'
 import Ecom from '../img/ecm.png'
 import Styl from '../img/styled.png'
 import Blog from '../img/blog.png'
-import Beer from '../img/beer.png'
-import Taghtml from '../img/html.png'
-import Css from '../img/css.png'
-import Js from '../img/js.png'
+import Rn from '../img/rn.png'
+import Type from '../img/type.png'
 
 
 const Projetos = () => {
@@ -108,19 +106,20 @@ const Projetos = () => {
       </div>
 
       <div className='card'>
-       <h3>Biblioteca Beer Js</h3>
+       <h3>Aplicativo Controle de finança</h3>
        <hr />
-       <img alt='react' className='img' src={Beer} ></img>
+       <img alt='react' className='img' src={Rn} ></img>
        <div>
-       <img alt='react' style={{width:30, margin:10}} src={Taghtml} ></img>
-       <img alt='react' style={{width:30, margin:10}} src={Css} ></img>
-       <img alt='next' style={{width:30, margin:10}} src={Js} ></img>
+       <img alt='react' style={{width:30, margin:10}} src={ReactJs} ></img>
+       <img alt='ts' style={{width:30, margin:10}} src={Type} ></img>
+       <img alt='node' style={{width:40, margin:7}} src={NodeJs} ></img>
+       <img alt='mysql' style={{width:40, margin:10}} src={Mysql} ></img>
        </div>
-      Pequena biblioteca de cerveja <br />
-      feita com Html, Css e JavaScript.
+       App feito com <b>React Native</b> e com uma<br/>
+       API proprio feita com node e typescript.
        <div className='btns'>
-        <a href='https://github.com/Diego0liver/BeerPedia'><button>Codigo</button></a>
-        <a href='http://bibliotecabeer.com.br/'><button>Site</button></a>
+       <a href='https://github.com/Diego0liver/ReactNativeControleFinanca'><button>FrontEnd</button></a>
+        <a href='https://github.com/Diego0liver/ApiNodeJS-TypeScript'><button>BackEnd</button></a>
        </div>
       </div>
 
