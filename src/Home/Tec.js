@@ -29,7 +29,9 @@ const Tec = () => {
          Conhecimento em <b>HTML</b> linguagem de marcação de hipertexto web, com tegs de botao, listas,
          tabelas, nav, checkbox, body, link, div, imagem e entre outras. E tambem folhas de estilo em 
          cascatas <b>CSS</b> com propriedades hover, animação, alinhamentos, display flex, grid, transition,
-         media query, entre outros.
+         media query, entre outros.<br/>
+         <a href='https://drive.google.com/file/d/1NuVdXPHVZ5Nn1Js7ZOtmqbl1l6ov7jcH/view?usp=share_link' >
+            Certificado</a>
     </div>
     
     <div className='card'>
@@ -40,7 +42,9 @@ const Tec = () => {
         Conhecimento em <b>JavaScript</b> com criacao de variaveis, funcoes, arrays, manipulacao de arrays, com filter,
         reduce, map, forEtch, some, slice, toString, length, find... Conhecimento em callback, manipulacao de API,
         localStorege, Json, props, Datas, async/await, promise, loop, if/else, try/catch e tratamento 
-        de erros. <br/><b>Typescript</b> para tipagem. 
+        de erros. <br/><b>Typescript</b> para tipagem. <br />
+        <a href='https://drive.google.com/file/d/1NuVdXPHVZ5Nn1Js7ZOtmqbl1l6ov7jcH/view?usp=share_link' >
+            Certificado</a>
     </div>
 
     <div className='card'>
@@ -50,7 +54,9 @@ const Tec = () => {
         </div>
         Conhecimento em <b>ReactJS</b> & <b>ReactNative</b> manipulacao em hooks como useState, useEffect e useContenxt. Conhecimento com 
         bibliotecas do react como o react-router, steled-components, bootstrap, react-hook-forms, react-use-cart,
-        chartJs, PDFmake, axios, react-toastify e framework <b>NextJs</b> no front-end.
+        chartJs, PDFmake, axios, react-toastify e framework <b>NextJs</b> no front-end.<br />
+        <a href='https://drive.google.com/file/d/1cUqYxdSqwQ_5w9JnRP1iTRPDKRDnqIuw/view?usp=share_link' >
+            Certificado</a>
     </div><br />
 
     <div className='card'>
@@ -60,7 +66,9 @@ const Tec = () => {
         </div>
         <b>NodeJS</b> basico para criacao de API's, criacao de endpoints CREATE, READ, UPDATE e DELETE. Conhecimento
         com bibliotecas Express, sequelize, multer, JWT, nodemailer, cors, dotenv e nodemon. <b>MySQL</b> como banco de dados para criacao
-        de tabelas no workbench e comandos SQL.
+        de tabelas no workbench e comandos SQL.<br/>
+        <a href='https://drive.google.com/file/d/1LPpseM5P8AWpChdbaP-QH4MFCHaON9hE/view?usp=share_link'>
+            Certificado</a>
     </div>
 
     <div className='card'>
@@ -81,7 +89,9 @@ const Tec = () => {
         </div>
         Conhecimento em <b>Bootstrap</b>, React-Bootstrap, <b>styled-components</b> e <b>Sass</b> para 
         estilização de páginas de 
-         aplicações web através do html e do ReactJs.
+         aplicações web através do html e do ReactJs.<br/>
+         <a href='https://drive.google.com/file/d/1K3UIlhiV7haXJYpQPULsH_WLfgF82_tC/view?usp=share_link'>
+            Certificado</a>
     </div>
 
     </div>

@@ -10,6 +10,12 @@ export const PerfilCss = styled.div`
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    animation: animate 2s;
+    @keyframes animate {
+        0% {
+            transform: translateX(-100%)                        
+        }
+      }
     h1{
         width: 500px;
         margin-left: auto;

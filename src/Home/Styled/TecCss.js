@@ -9,6 +9,7 @@ export const TecCss = styled.div`
     margin-left: auto;
     margin-right: auto;
     margin-top: 90px !important;
+    
     h1{
         border-left: 4px solid #5d6ba7;
         width: 500px;
@@ -29,9 +30,13 @@ export const TecCss = styled.div`
     margin: 5px;
     margin-left: auto;
     margin-right: auto;
-   
+    animation: animate 2s;
 }
-
+@keyframes animate {
+    0% {
+        transform: translateX(-100%)                        
+    }
+  }
 .card-corpo{
     display:flex;
     margin-left: auto;
