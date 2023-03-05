@@ -9,7 +9,7 @@ const Perfil = () => {
   return (
     <PerfilCss>
       <div className='perfil'>
-      <h1>Diego Oliveira Fonseca</h1>
+      <h1>Diego Oliveira</h1>
       <h3>Desenvolvedor JavaScript</h3>
       <p>Programador autodidata, conclui curso ProgramadorBr fullstack em JavaScript,
         atualmente estudo análise e Desenvolvimento de Sistemas na Estácio,
