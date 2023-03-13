@@ -10,7 +10,6 @@ export const PerfilCss = styled.div`
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    animation: animate 2s;
     @keyframes animate {
         0% {
             transform: translateX(-100%)                        
@@ -21,11 +20,16 @@ export const PerfilCss = styled.div`
         margin-left: auto;
         margin-right: auto;
         margin-top: 60px;
+        animation: animate 2s;
+    }
+    h3{
+        animation: animate 2s;
     }
     p{
         width: 800px;
         margin-left: auto;
         margin-right: auto;
+        animation: animate 2s;
     }
     button{
         background-color: #5d6ba7;
@@ -36,6 +40,7 @@ export const PerfilCss = styled.div`
         cursor: pointer;
         border-radius: 5px;
         margin: 10px;
+        animation: animate 2s;
     }
 }
 @media only screen and (max-width: 1200px){

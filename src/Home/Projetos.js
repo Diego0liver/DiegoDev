@@ -15,6 +15,7 @@ import Rn from '../img/rn.png'
 import Type from '../img/type.png'
 
 
+
 const Projetos = () => {
   return (
     <ProjetoCss>
@@ -130,6 +131,7 @@ const Projetos = () => {
 
 
     </ProjetoCss>
+
   )
 }
 

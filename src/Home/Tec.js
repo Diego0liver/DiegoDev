@@ -14,6 +14,8 @@ import Styl from '../img/styled.png'
 import Sass from '../img/sass.png'
 import Type from '../img/type.png'
 
+
+
 const Tec = () => {
   return (
     <TecCss>

@@ -30,7 +30,6 @@ export const TecCss = styled.div`
     margin: 5px;
     margin-left: auto;
     margin-right: auto;
-    animation: animate 2s;
 }
 @keyframes animate {
     0% {

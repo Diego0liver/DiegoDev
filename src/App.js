@@ -3,6 +3,7 @@ import Perfil from './Home/Perfil'
 import Tec from './Home/Tec'
 import Projetos from './Home/Projetos'
 import Menu from './Home/Menu'
+import Estudo from './Home/Estudo'
 
 
 
@@ -12,6 +13,7 @@ const App = () => {
     <Perfil />
     <Tec />
     <Projetos />
+    <Estudo />
     </>
   )
 }

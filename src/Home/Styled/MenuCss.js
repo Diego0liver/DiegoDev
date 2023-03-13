@@ -51,8 +51,7 @@ button{
     margin: 10px;
 }
 img{
-        border-radius: 100px;
-       
+        border-radius: 100px;  
     }
 ul{
     list-style: none;
