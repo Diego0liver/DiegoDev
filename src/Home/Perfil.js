@@ -9,7 +9,7 @@ const Perfil = () => {
   return (
     <PerfilCss>
       <div className='perfil'>
-      <h1>Diego Oliveira Fonseca</h1>
+      <h1>Diego Oliveira</h1>
       <h3>Desenvolvedor JavaScript</h3>
       <p>Programador autodidata, conclui curso ProgramadorBr fullstack em JavaScript,
         atualmente estudo análise e Desenvolvimento de Sistemas na Estácio,
@@ -18,7 +18,7 @@ const Perfil = () => {
          Banco de dados MySQL e também ferramentas como o bootstrap, sass, Git|GitHub, API e Figma.
          Tenho facilidade para aprender linguagens novas também disposição, sou apaixonado por códigos.
          Comunicativo, facilidade trabalha com equipe e criativo. </p>
-         <a href='https://drive.google.com/file/d/1sl0Qt53D9JmwUq1VZfS1XxmCkt5hyvx0/view?usp=share_link'>
+         <a href='https://drive.google.com/file/d/1sl0Qt53D9JmwUq1VZfS1XxmCkt5hyvx0/view?usp=sharing'>
          <button>Currículo</button></a>
          <a href='https://github.com/Diego0liver'><button>GitHub</button></a>
       </div>   
