@@ -20,18 +20,32 @@ h1{
     margin-bottom: 50px;
 }
 img{
-    white: 30px;
-    height: 30px;
+    white: 35px;
+    height: 35px;
 }
 }
 .cont-corpo{
-    display: flex;
-    justify-content: center;
+   
 }
 .card{
+    display: flex;
+    justify-content: center;
     margin: 20px;
     padding: 20px;
     background: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    img{
+        margin-top:50px;
+        margin-right: 50px;
+        
+      
+    }
+    h4{
+        text-align: center;
+        margin-top: 50px
+    }
+    a{
+        color: #5d6ba7;
+    }
 }
 `
