@@ -20,8 +20,7 @@ const Tec = () => {
   return (
     <TecCss>
     <div className='skil'>
-    <h1 id='skil'>Linguagens</h1>
-    <p>Experencia em projetos proprios com as tecnologias:</p>
+    <h1 id='skil'>Tecnologias</h1>
     <div className='card-corpo'>
     <div className='card'>
         <div>

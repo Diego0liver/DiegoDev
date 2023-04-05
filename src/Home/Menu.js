@@ -28,7 +28,7 @@ const Menu = () => {
         <ul>
           <a href='#skil'><li>Linguagens</li></a>
           <a href='#proj'><li>Projetos</li></a>
-          <a href='#estudo'><li>Estudos</li></a>
+          <a href='#estudo'><li>Ensino</li></a>
         </ul>
         </div>
         <div className='btn-menu'>

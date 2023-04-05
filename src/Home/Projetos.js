@@ -20,8 +20,8 @@ const Projetos = () => {
   return (
     <ProjetoCss>
     <div className='conteiner'>
-     <h1 id='proj'>Projetos Proprios</h1>
-     (No README.md de cada projeto tem um link para o video)
+     <h1 id='proj'>Projetos</h1>
+   
      <div className='corpo'>
       <div className='card'>
        <h3>Formulario FullStack</h3>

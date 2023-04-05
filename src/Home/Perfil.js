@@ -12,9 +12,9 @@ const Perfil = () => {
       <h1>Diego Oliveira</h1>
       <h3>Desenvolvedor JavaScript</h3>
       <p>Programador autodidata, conclui curso ProgramadorBr fullstack em JavaScript,
-        atualmente estudo análise e Desenvolvimento de Sistemas na Estácio,
+        atualmente estudo Análise e Desenvolvimento de Sistemas na Estácio,
          moro em Maringá Pr, tenho 28 anos de idade, estudo programação pouco mais de 1 ano, conhecimento e 
-         experiência em projetos próprios com as linguagem JavaScript, ReactJs, React-Native, TypeScript, NextJs, NodeJs.
+         experiência com as linguagem JavaScript, ReactJs, React-Native, TypeScript, NextJs, NodeJs.
          Banco de dados MySQL e também ferramentas como o bootstrap, sass, Git|GitHub, API e Figma.
          Tenho facilidade para aprender linguagens novas também disposição, sou apaixonado por códigos.
          Comunicativo, facilidade trabalha com equipe e criativo. </p>

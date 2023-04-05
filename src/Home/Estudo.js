@@ -8,36 +8,16 @@ const Estudo = () => {
   return (
     <EstudoCss>
     <div className='conteiner'>
-        <h1 id='estudo' >Estudos</h1>
-        <div className='cont-corpo'>
-       
-        <div className='card'>
-          <div>
-        <img alt='not' src={Book} ></img></div>
-        <div>
-            <h4>Ensino Médio completo</h4>
-        </div>
-        </div>
-
-
-        <div className='card'>
-          <div>
-        <img alt='not' src={Curso} ></img></div>
-        <div>
-            <h4>Curso Full-stack JavaScript</h4>
-            <p>Curso <b>concluído</b> <a href='https://drive.google.com/file/d/1cUqYxdSqwQ_5w9JnRP1iTRPDKRDnqIuw/view?usp=share_link'>ReactJs</a> & <a href='https://drive.google.com/file/d/1LPpseM5P8AWpChdbaP-QH4MFCHaON9hE/view?usp=share_link'>
-              NodeJs</a><br/>
-            Programador BR</p></div>
-        </div>
-        
-        <div className='card'>
-        <img alt='facu' src={Facu} ></img>
-        <div>
-            <h4>Análise e desenvolvimento de sistemas</h4>
-            <p><b>Cursando</b> Análise e desenvolvimento de <br/>sistemas
-            na faculdade Estácio</p></div>
-        </div>
-        </div>
+      <h1>Formação e Ensino</h1>
+      <hr/>
+      <ul>
+        <li><img src={Book} style={{width:20, marginRight:10}} ></img>
+        Ensino Médio completo</li>
+        <li><img src={Facu} style={{width:20, marginRight:10}} ></img>
+          Cursando Análise e Desenvolvimento de Sistemas(Estácio)</li>
+        <li><img src={Curso} style={{width:20, marginRight:10}} ></img>
+        Concluí curso Programdor full-stack JS</li>
+      </ul>
     </div>
     </EstudoCss>
   )
