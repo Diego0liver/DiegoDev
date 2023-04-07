@@ -20,9 +20,14 @@ h1{
 }
 ul{
     list-style: none;
+    background-color: #7887c9;
+    border-radius:10px;
+    padding:10px
 }
 li{
    font-size: 22px;
+   color:#fafafa;
+   
 }
 }
 `

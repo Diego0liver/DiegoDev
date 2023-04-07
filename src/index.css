@@ -5,3 +5,14 @@ body {
   font-family: 'Baloo 2', cursive;
  
 }
+h1{
+  color: #5d6ba7;
+}
+::-webkit-scrollbar{
+  background-color: #fafafa;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #5d6ba7;
+  border-radius:100px;
+}

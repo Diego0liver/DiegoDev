@@ -8,8 +8,7 @@ const Estudo = () => {
   return (
     <EstudoCss>
     <div className='conteiner'>
-      <h1>Formação e Ensino</h1>
-      <hr/>
+      <h1 id='estudo' >Formação e Ensino</h1>
       <ul>
         <li><img src={Book} style={{width:20, marginRight:10}} ></img>
         Ensino Médio completo</li>
