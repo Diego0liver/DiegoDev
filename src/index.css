@@ -16,3 +16,15 @@ h1{
   background-color: #5d6ba7;
   border-radius:100px;
 }
+
+@media only screen and (max-width: 1200px){
+  ::-webkit-scrollbar{
+    background-color: #fafafa;
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #5d6ba7;
+    border-radius:100px;
+  }
+ 
+}

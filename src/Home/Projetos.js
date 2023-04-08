@@ -18,6 +18,8 @@ import Beer from '../img/beer.png'
 import Taghtml from '../img/html.png'
 import Css from '../img/css.png'
 import Js from '../img/js.png'
+import Mailer from '../img/mai.png'
+import MailerFoto from '../img/mailer.png'
 
 
 
@@ -160,6 +162,24 @@ const Projetos = () => {
        <a href='http://bibliotecabeer.com.br/index.html'><button>Site</button></a>
        </div>
       </div>
+
+
+      <div className='card'>
+       <h3>Landing Page com envio de E-mail</h3>
+       <hr />
+       <img alt='react' className='img' src={MailerFoto} ></img>
+       <div>
+       <img alt='react' style={{width:30, margin:10}} src={ReactJs} ></img>
+       <img alt='ts' style={{width:30, margin:10}} src={NodeJs} ></img>
+       <img alt='ts' style={{width:30, margin:10}} src={Mailer} ></img>
+       </div>
+       Landing Page com envio de email Nodejs usando Nodemailer
+       <div className='btns'>
+       <a href='https://github.com/Diego0liver/EnvioDeEmailFrontEndJs'><button>FrontEnd</button></a>
+        <a href='https://github.com/Diego0liver/EnvioDeEmailBackEndJs'><button>BackEnd</button></a>
+       </div>
+      </div>
+
 
 
      </div>
