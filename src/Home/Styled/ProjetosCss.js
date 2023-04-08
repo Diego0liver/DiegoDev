@@ -20,6 +20,11 @@ export const ProjetoCss = styled.div`
         cursor: pointer;
         border-radius: 5px;
         margin: 10px;
+        transition: all .8s;
+        :hover{
+            background-color: #252d4e;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        }
     }
     h1{
         border-left: 4px solid #5d6ba7;

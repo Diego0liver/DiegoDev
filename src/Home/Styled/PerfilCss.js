@@ -49,7 +49,11 @@ export const PerfilCss = styled.div`
         cursor: pointer;
         border-radius: 5px;
         margin: 10px;
-        animation: animate 2s;
+        transition: all .8s;
+        :hover{
+            background-color: #252d4e;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        }
     }
 }
 @media only screen and (max-width: 1200px){
