@@ -20,7 +20,7 @@ h1{
 }
 ul{
     list-style: none;
-    background-color: #7887c9;
+    background: linear-gradient(127deg, rgba(120,135,201,1) 41%, rgba(51,61,110,1) 100%);
     border-radius:10px;
     padding:10px
 }

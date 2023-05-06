@@ -13,7 +13,7 @@ h1{
   width: 10px;
 }
 ::-webkit-scrollbar-thumb{
-  background-color: #5d6ba7;
+  background: linear-gradient(127deg, rgba(120,135,201,1) 41%, rgba(51,61,110,1) 100%);
   border-radius:100px;
 }
 
@@ -23,7 +23,7 @@ h1{
     width: 10px;
   }
   ::-webkit-scrollbar-thumb{
-    background-color: #5d6ba7;
+    background: linear-gradient(127deg, rgba(120,135,201,1) 41%, rgba(51,61,110,1) 100%);
     border-radius:100px;
   }
  

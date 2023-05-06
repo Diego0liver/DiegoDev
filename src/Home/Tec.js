@@ -9,10 +9,10 @@ import NodeJs from '../img/nodejs.png'
 import Mysql from '../img/mysql.png'
 import Git from '../img/git.png'
 import Github from '../img/github.png'
-import Boots from '../img/boots.png'
-import Styl from '../img/styled.png'
-import Sass from '../img/sass.png'
+import Php from '../img/php.png'
+import Laravel from '../img/laravel.jpg'
 import Type from '../img/type.png'
+import Jira from '../img/jira.png'
 
 
 
@@ -53,7 +53,7 @@ const Tec = () => {
         <img alt='react' style={{width:30, margin:10}} src={ReactJs} ></img>
         <img alt='next' style={{width:25, margin:10}} src={Next} ></img>
         </div>
-        Conhecimento em <b>ReactJS</b> & <b>ReactNative</b> manipulacao em hooks como useState, useEffect e useContenxt. Conhecimento com 
+        Conhecimento em <b>ReactJS</b> manipulacao em hooks como useState, useEffect e useContenxt. Conhecimento com 
         bibliotecas do react como o react-router, steled-components, bootstrap, react-hook-forms, react-use-cart,
         chartJs, PDFmake, axios, react-toastify e framework <b>NextJs</b> no front-end.<br />
         <a href='https://drive.google.com/file/d/1cUqYxdSqwQ_5w9JnRP1iTRPDKRDnqIuw/view?usp=share_link' >
@@ -74,26 +74,27 @@ const Tec = () => {
 
     <div className='card'>
     <div>
-        <img alt='react' style={{width:30, margin:7}} src={Git} ></img>
-        <img alt='next' style={{width:30, margin:7}} src={Github} ></img>
+        <img alt='react' style={{width:40, margin:5}} src={Php} ></img>
+        <img alt='next' style={{width:40, margin:5}} src={Laravel} ></img>
         </div>
-        Conhecimento em <b>git</b> para interagir com a ferramenta <b>github</b> através de comandos como,
-        git commit, init, git clone, branch, git add, push, origin e status. 
-        Conhecimento em <b>github</b> para deploy, github pages e domínios personalizados. 
+        Conhecimento em <b>Php</b>, criacao de MVC com
+        padrao de projeto Poo e PDO. <b>Laravel</b> para criacao de API crud,
+         relacionamento de tabelas de banco de dados, login, token Sanctum, Migration, Model, Controller e rotas.
+
+        
     </div>
 
     <div className='card'>
     <div>
-        <img alt='react' style={{width:30, margin:7}} src={Styl} ></img>
-        <img alt='next' style={{width:40, margin:2}} src={Boots} ></img>
-        <img alt='next' style={{width:40, margin:2}} src={Sass} ></img>
+        <img alt='react' style={{width:30, margin:7}} src={Git} ></img>
+        <img alt='next' style={{width:30, margin:7}} src={Github} ></img>
+        <img alt='next' style={{width:45}} src={Jira} ></img>
         </div>
-        Conhecimento em <b>Bootstrap</b>, React-Bootstrap, <b>styled-components</b> e <b>Sass</b> para 
-        estilização de páginas de 
-         aplicações web através do html e do ReactJs.<br/>
-         <a href='https://drive.google.com/file/d/1K3UIlhiV7haXJYpQPULsH_WLfgF82_tC/view?usp=share_link'>
-            Certificado</a>
+        Conhecimento em <b>git</b> para interagir com a ferramenta <b>github</b> através de comandos como,
+        git commit, init, git clone, branch, git add, push, origin e deploy.<br/>
+        Conhecimento em ferramenta de gestão ágil de projetos <b>Jira</b>.
     </div>
+
 
     </div>
     </div>

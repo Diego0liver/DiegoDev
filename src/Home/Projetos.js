@@ -11,7 +11,7 @@ import Shart from '../img/chart.jpeg'
 import Ecom from '../img/ecm.png'
 import Styl from '../img/styled.png'
 import Blog from '../img/blog.png'
-import Rn from '../img/rn.png'
+import Phpdoc from '../img/phpdoc.png'
 import Type from '../img/type.png'
 import Estoq from '../img/estoq.png'
 import Beer from '../img/beer.png'
@@ -20,6 +20,9 @@ import Css from '../img/css.png'
 import Js from '../img/js.png'
 import Mailer from '../img/mai.png'
 import MailerFoto from '../img/mailer.png'
+import Php from '../img/php.png'
+import Apilara from '../img/apilara.jpg'
+import Laravel from '../img/laravel.jpg'
 
 
 
@@ -114,20 +117,16 @@ const Projetos = () => {
       </div>
 
       <div className='card'>
-       <h3>Aplicativo Controle de finança</h3>
+       <h3>Crud Php</h3>
        <hr />
-       <img alt='react' className='img' src={Rn} ></img>
+       <img alt='react' className='img' src={Phpdoc} ></img>
        <div>
-       <img alt='react' style={{width:30, margin:10}} src={ReactJs} ></img>
-       <img alt='ts' style={{width:30, margin:10}} src={Type} ></img>
-       <img alt='node' style={{width:40, margin:7}} src={NodeJs} ></img>
+       <img alt='react' style={{width:30, margin:10}} src={Php} ></img>
        <img alt='mysql' style={{width:40, margin:10}} src={Mysql} ></img>
        </div>
-       App feito com <b>React Native</b> e com uma<br/>
-       API proprio feita com node e typescript.
+       Crud com Php e bootstrap, padrao Poo e Pdo, <br/>banco de dados MySQL.
        <div className='btns'>
-       <a href='https://github.com/Diego0liver/ReactNativeControleFinanca'><button>FrontEnd</button></a>
-        <a href='https://github.com/Diego0liver/ApiNodeJS-TypeScript'><button>BackEnd</button></a>
+       <a href='https://github.com/Diego0liver/CrudPhpPooPdo'><button>Codigo</button></a>
        </div>
       </div>
 
@@ -149,17 +148,16 @@ const Projetos = () => {
       </div>
 
       <div className='card'>
-       <h3>Pequeno blog</h3>
+       <h3>API Laravel</h3>
        <hr />
-       <img alt='react' className='img' src={Beer} ></img>
+       <img alt='react' className='img' src={Apilara} ></img>
        <div>
-       <img alt='react' style={{width:30, margin:10}} src={Taghtml} ></img>
-       <img alt='ts' style={{width:30, margin:10}} src={Css} ></img>
-       <img alt='node' style={{width:40, margin:7}} src={Js} ></img>
+       <img alt='react' style={{width:30, margin:10}} src={Laravel} ></img>
+       <img alt='ts' style={{width:30, margin:10}} src={Mysql} ></img>
        </div>
-       Pequeno blog sobre cerveja com HTML CSS e JS
+      Api Laravel CRUD Relacionamento 1pN e Np1.
        <div className='btns'>
-       <a href='http://bibliotecabeer.com.br/index.html'><button>Site</button></a>
+       <a href='https://github.com/Diego0liver/ApiLaravelRelacionamento1pN-Np1'><button>Codigo</button></a>
        </div>
       </div>
 
