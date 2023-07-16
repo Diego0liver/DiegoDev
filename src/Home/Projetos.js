@@ -23,6 +23,7 @@ import MailerFoto from '../img/mailer.png'
 import Php from '../img/php.png'
 import Apilara from '../img/apilara.jpg'
 import Laravel from '../img/laravel.jpg'
+import ControleMEsa from '../img/controle.png'
 
 
 
@@ -33,6 +34,25 @@ const Projetos = () => {
      <h1 id='proj'>Projetos</h1>
    
      <div className='corpo'>
+
+
+     <div className='card'>
+       <h3>Sistema de Restaurante</h3>
+       <hr />
+       <img alt='react' className='img' src={ControleMEsa} ></img>
+       <div>
+       <img alt='react' style={{width:30, margin:10}} src={ReactJs} ></img>
+       <img alt='ts' style={{width:30, margin:10}} src={Laravel} ></img>
+       <img alt='ts' style={{width:30, margin:10}} src={Mysql} ></img>
+       </div>
+       Controle de mesa de restaurante. Ja esta no ar para acessar (login: admin@admin. Senha: password)
+       <div className='btns'>
+       <a href='https://controle-mesas.vercel.app/login'><button>Site</button></a>
+        <a href='https://github.com/Diego0liver/ControleMesas'><button>Codigo</button></a>
+       </div>
+      </div>
+
+
       <div className='card'>
        <h3>Formulario FullStack</h3>
        <hr />
@@ -160,24 +180,6 @@ const Projetos = () => {
        <a href='https://github.com/Diego0liver/ApiLaravelRelacionamento1pN-Np1'><button>Codigo</button></a>
        </div>
       </div>
-
-
-      <div className='card'>
-       <h3>Landing Page com envio de E-mail</h3>
-       <hr />
-       <img alt='react' className='img' src={MailerFoto} ></img>
-       <div>
-       <img alt='react' style={{width:30, margin:10}} src={ReactJs} ></img>
-       <img alt='ts' style={{width:30, margin:10}} src={NodeJs} ></img>
-       <img alt='ts' style={{width:30, margin:10}} src={Mailer} ></img>
-       </div>
-       Landing Page com envio de email Nodejs usando Nodemailer
-       <div className='btns'>
-       <a href='https://github.com/Diego0liver/EnvioDeEmailFrontEndJs'><button>FrontEnd</button></a>
-        <a href='https://github.com/Diego0liver/EnvioDeEmailBackEndJs'><button>BackEnd</button></a>
-       </div>
-      </div>
-
 
 
      </div>

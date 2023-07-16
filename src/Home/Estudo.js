@@ -20,7 +20,7 @@ const Estudo = () => {
         Concluí curso Programdor full-stack JS</li>
         <h3 style={{color:'white'}}>Experiência</h3>
         <li><img src={Work} style={{width:20, marginRight:10}} ></img>
-        Trabalho na Runy.me com Php/Laravel.</li>
+        Freelancer na Runy.me como Back-end Php/Laravel.</li>
       </ul>
     </div>
     </EstudoCss>
