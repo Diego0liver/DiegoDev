@@ -13,14 +13,18 @@ import Php from '../img/php.png'
 import Laravel from '../img/laravel.jpg'
 import Type from '../img/type.png'
 import Jira from '../img/jira.png'
-
+import { Link } from 'react-router-dom';
 
 
 const Tec = () => {
+   
   return (
     <TecCss>
     <div className='skil'>
-    <h1 id='skil'>Tecnologias</h1>
+     <Link to="/" >  
+     <p>◀️</p>
+     </Link> 
+    <h1>Tecnologias</h1>
     <div className='card-corpo'>
     <div className='card'>
         <div>

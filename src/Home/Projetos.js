@@ -14,23 +14,20 @@ import Blog from '../img/blog.png'
 import Phpdoc from '../img/phpdoc.png'
 import Type from '../img/type.png'
 import Estoq from '../img/estoq.png'
-import Beer from '../img/beer.png'
-import Taghtml from '../img/html.png'
-import Css from '../img/css.png'
-import Js from '../img/js.png'
-import Mailer from '../img/mai.png'
-import MailerFoto from '../img/mailer.png'
 import Php from '../img/php.png'
 import Apilara from '../img/apilara.jpg'
 import Laravel from '../img/laravel.jpg'
 import ControleMEsa from '../img/controle.png'
-
+import { Link } from 'react-router-dom';
 
 
 const Projetos = () => {
   return (
     <ProjetoCss>
     <div className='conteiner'>
+    <Link to="/" >  
+     <p>◀️</p>
+     </Link> 
      <h1>Projetos</h1>
    
      <div className='corpo'>

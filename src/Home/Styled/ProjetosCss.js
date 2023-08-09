@@ -11,6 +11,7 @@ export const ProjetoCss = styled.div`
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    margin-top: 890px !important;
     button{
         background-color: #5d6ba7;
         color: white;
@@ -32,6 +33,10 @@ export const ProjetoCss = styled.div`
         margin-left: auto;
         margin-right: auto;
     }
+}
+p{
+    text-align: start;
+    font-size: 20px;
 }
 .corpo{
     display:flex;
@@ -92,6 +97,9 @@ hr{
  }   
 
  @media only screen and (max-width: 1200px){
+    .conteiner{
+        margin-top: 2690px !important;
+    }
     .btns{
  button{
         font-size: 30px;

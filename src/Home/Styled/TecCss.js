@@ -8,7 +8,7 @@ export const TecCss = styled.div`
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 90px !important;
+    margin-top: 150px !important;
     
     h1{
         border-left: 4px solid #5d6ba7;
@@ -22,6 +22,10 @@ export const TecCss = styled.div`
         margin-right: auto;
     }
 }
+    p{
+        text-align: start;
+        font-size: 20px;
+    }
 .card{
     height: 300px;
     max-width: 300px;
@@ -44,8 +48,11 @@ export const TecCss = styled.div`
 }
 
 @media only screen and (max-width: 1200px){
+    .skil{
+        margin-top: 2400px !important;
+    }
     .card{
-        height: 500px;
+    height: 560px;
     max-width: 500px;
     padding: 10px;
     margin: 5px;
