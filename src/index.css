@@ -1,12 +1,17 @@
-body {
+
+body, html {
+  height: 100%;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Baloo 2', cursive;
- 
 }
 h1{
   color: #5d6ba7;
+ 
 }
 ::-webkit-scrollbar{
   background-color: #fafafa;

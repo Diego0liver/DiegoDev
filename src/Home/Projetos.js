@@ -31,7 +31,7 @@ const Projetos = () => {
   return (
     <ProjetoCss>
     <div className='conteiner'>
-     <h1 id='proj'>Projetos</h1>
+     <h1>Projetos</h1>
    
      <div className='corpo'>
 

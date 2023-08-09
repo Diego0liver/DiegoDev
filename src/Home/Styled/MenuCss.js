@@ -4,121 +4,91 @@ import styled from "styled-components";
 
 export const MenuCss = styled.div`
 .conteiner{
-background-color:  #5d6ba7;
-margin: 0px;
-position: fixed;
-width: 100%;
-button{
-    padding: 5px;
-    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+.card{
+    background-color:  #fff;
+    width: 300px;
+    height: 360px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .eu{
-    display: none;
-}
-animation: drop 1s ease-out ;
-}
-
-@keyframes drop {
-  100% {
-    transform: translateY(0%);
-  }
-  0% {
-    transform: translateY(-50%);
-  }
-  
-}
-
-  
-
-
-.containerOf{
-height: 220px;
-background-color:  #5d6ba7;
-margin: 0px;
-position: fixed;
-width: 100%;
-.eu{
-   display:flex;
-   justify-content: center !important;
-}
-.btn-menu{
-    display:flex;
-   justify-content: center !important;
-   margin-top: 10px;
-}
-button{
-    padding: 5px;
-    margin: 10px;
-}
-img{
-        border-radius: 100px;  
-    }
-ul{
-    list-style: none;
-    color: white;
-    font-weight: bold;
-}
-.img-foto{
     width: 100px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, #fff 0px 0px 0px 3px;
 }
-animation: dropdown 1s ease-in ;
-}
-@keyframes dropdown {
-  0% {
-    transform: translateY(-80%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-  
-}
-
-
-
-
-.btn-menu{
-     display: flex;
-     justify-content: flex-end;
-     margin-top: -40px;
-     margin-right: 100px;
-}
-button{
-    border: none;
+.imgTopo{
     background-color: #5d6ba7;
-    cursor: pointer;
+    border-radius:10% 10% 99% 20% / 10% 10% 30% 53%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
 }
-a{
-    text-decoration: none;
-    color: white;
+.nome{
+    text-align:center;
+    font-weight: bold;
+    font-size: 23px;
+    color: #4f4f4f;
+    margin: 0;
 }
-.btn-contato{
-    width:30px; 
-    margin:5px
-}
-.btn-men{
-        width:25px
+.facu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+       padding: 10px;
+       width: 20px;
+       height: 20px;
     }
+    p{
+       color:  #4f4f4f;
+       font-style: italic;
+       font-size: 13px;
+       margin: 0;
+    }
+}
+.redSocial{
+    display: flex;
+    justify-content: center;
+    img{
+        padding: 7px;
+        cursor: pointer;
+    }
+}
 
-    
-@media only screen and (max-width: 1200px){
-    .btn-men{
-        width:60px
-    }
-    .btn-contato{
-    width:60px; 
-   margin-top: -25px;
-}
-.containerOf{
-    height: 400px;
-    .img-foto{
-    width: 200px;
-    margin-bottom: 20px;
-}
-}
-.eu{
-    li{
-        font-size: 35px;
+.contatos{
+    display: flex;
+    justify-content: center;
+    button{
+        margin: 10px;
+        color: #fff;
+        background-color: #5d6ba7;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 20px;
     }
 }
+
+.opc{
+    display: flex;
+    justify-content: space-evenly;
+    p{
+        color: #ccc;
+        margin-top: -1px   
+    }
+    img{
+        cursor: pointer;
+    }
 }
+.hr{
+  border: none;
+  width: 90%;
+  height: 1px; 
+  background-color: #ccc; 
+}  
 `
