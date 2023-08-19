@@ -92,8 +92,6 @@ export const MenuCss = styled.div`
   background-color: #ccc; 
 }
 
-
-
 @media only screen and (max-width: 1200px){
     .card{
         width: 700px;

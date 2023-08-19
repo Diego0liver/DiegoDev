@@ -19,20 +19,17 @@ import Apilara from '../img/apilara.jpg'
 import Laravel from '../img/laravel.jpg'
 import ControleMEsa from '../img/controle.png'
 import { Link } from 'react-router-dom';
-
+import Voltar from '../img/voltar.png'
 
 const Projetos = () => {
   return (
     <ProjetoCss>
     <div className='conteiner'>
-    <Link to="/" >  
-     <p>◀️</p>
-     </Link> 
      <h1>Projetos</h1>
-   
+     <Link to="/" >  
+    <img alt='voltar' src={Voltar} ></img>
+     </Link> 
      <div className='corpo'>
-
-
      <div className='card'>
        <h3>Sistema de Restaurante</h3>
        <hr />

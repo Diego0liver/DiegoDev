@@ -98,7 +98,7 @@ hr{
 
  @media only screen and (max-width: 1200px){
     .conteiner{
-        margin-top: 2690px !important;
+        margin-top: 2720px !important;
     }
     .btns{
  button{
