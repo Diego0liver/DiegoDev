@@ -17,9 +17,11 @@ import Estoq from '../img/estoq.png'
 import Php from '../img/php.png'
 import Apilara from '../img/apilara.jpg'
 import Laravel from '../img/laravel.jpg'
+import vue from '../img/vue.png'
 import ControleMEsa from '../img/controle.png'
 import { Link } from 'react-router-dom';
 import Voltar from '../img/voltar.png'
+import Car from '../img/alugarCarro.png'
 
 const Projetos = () => {
   return (
@@ -46,6 +48,23 @@ const Projetos = () => {
        </div>
       </div>
 
+      <div className='card'>
+       <h3>Sistema aluguel de carro FullStack</h3>
+       <hr />
+       <img alt='react' className='img' src={Car} ></img>
+       <div>
+       <img alt='react' style={{width:30, margin:10}} src={ReactJs} ></img>
+       <img alt='vue' style={{width:30, margin:10}} src={vue} ></img>
+       <img alt='laravel' style={{width:30, margin:10}} src={Laravel} ></img>
+       </div>
+       Sistema de controle de aluguel de carros. <br />
+       VueJs e ReactJs no Front-end<br/> e Laravel no Back-end .
+       <div className='btns'>
+        <a href='https://github.com/Diego0liver/AluguelDCarroSaas-Reactjs-Redux'><button>ReactJS</button></a>
+        <a href='https://github.com/Diego0liver/AluguelDCarroSaas-vuejs-vuex'><button>VueJS</button></a>
+       </div>
+      </div>
+
 
       <div className='card'>
        <h3>Formulario FullStack</h3>
@@ -63,7 +82,7 @@ const Projetos = () => {
         <a href='https://github.com/Diego0liver/FormularioBacktEndJs'><button>BackEnd</button></a>
        </div>
       </div>
-
+      
       <div className='card'>
        <h3>Blog FullStack</h3>
        <hr />
@@ -80,25 +99,6 @@ const Projetos = () => {
         <a href='https://github.com/Diego0liver/BlogBackEndJs'><button>BackEnd</button></a>
        </div>
       </div>
-
-      <div className='card'>
-       <h3>Sistema de login FullStack</h3>
-       <hr />
-       <img alt='react' className='img' src={Loog} ></img>
-       <div>
-       <img alt='react' style={{width:30, margin:10}} src={ReactJs} ></img>
-       <img alt='react' style={{width:40, margin:7}} src={NodeJs} ></img>
-       <img alt='next' style={{width:40, margin:10}} src={Mysql} ></img>
-       </div>
-       Sistema de login FullStack com reatcJS e nodeJS. <br />
-       Com rotas protegida e token JWT.
-       <div className='btns'>
-        <a href='https://github.com/Diego0liver/loginFrontendJs'><button>FrontEnd</button></a>
-        <a href='https://github.com/Diego0liver/loginBackendJs'><button>BackEnd</button></a>
-       </div>
-      </div>
-
-
 
       <div className='card'>
        <h3>DashBoard frontend</h3>

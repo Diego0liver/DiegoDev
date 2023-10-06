@@ -15,6 +15,7 @@ import Type from '../img/type.png'
 import Jira from '../img/jira.png'
 import { Link } from 'react-router-dom';
 import Voltar from '../img/voltar.png'
+import vue from '../img/vue.png'
 
 const Skill = () => {
    
@@ -58,12 +59,12 @@ const Skill = () => {
     <div className='card'>
     <div className='img-tec'>
         <img alt='react' style={{width:30, margin:10}} src={ReactJs} ></img>
-        <img alt='next' style={{width:25, margin:10}} src={Next} ></img>
+        <img alt='next' style={{width:35, margin:10}} src={vue} ></img>
         </div>
         <p>
         Conhecimento em <b>ReactJS</b> manipulacao em hooks como useState, useEffect e useContenxt. Conhecimento com 
-        bibliotecas do react como o react-router, steled-components, bootstrap, react-hook-forms, react-use-cart,
-        chartJs, PDFmake, axios, react-toastify e framework <b>NextJs</b> no front-end.<br /></p>
+        bibliotecas do react como o react-router, <i>Redux</i>, steled-components, bootstrap, react-hook-forms, react-use-cart,
+        chartJs, PDFmake, axios, react-toastify. Conhecimento em <b>VueJS</b> e <i>VueEx</i></p>
         <a href='https://drive.google.com/file/d/1cUqYxdSqwQ_5w9JnRP1iTRPDKRDnqIuw/view?usp=share_link' >
             Certificado</a>
     </div><br />
