@@ -57,7 +57,7 @@ const Projetos = () => {
        <img alt='vue' style={{width:30, margin:10}} src={vue} ></img>
        <img alt='laravel' style={{width:30, margin:10}} src={Laravel} ></img>
        </div>
-       Sistema de controle de aluguel de carros. <br />
+       Sistema de aluguel de carros. <br />
        VueJs e ReactJs no Front-end<br/> e Laravel no Back-end .
        <div className='btns'>
         <a href='https://github.com/Diego0liver/AluguelDCarroSaas-Reactjs-Redux'><button>ReactJS</button></a>
