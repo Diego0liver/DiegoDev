@@ -11,7 +11,6 @@ export const ProjetoCss = styled.div`
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    margin-top: 890px !important;
     button{
         background-color: #5d6ba7;
         color: white;
@@ -94,7 +93,7 @@ hr{
         border-radius: 5px;
         margin: 10px;
     }
- }   
+ } 
 
  @media only screen and (max-width: 1200px){
     .conteiner{

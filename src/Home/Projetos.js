@@ -29,7 +29,7 @@ const Projetos = () => {
     <div className='conteiner'>
      <h1>Projetos</h1>
      <Link to="/" >  
-    <img alt='voltar' src={Voltar} ></img>
+    <img alt='voltar' className='voltar' src={Voltar} ></img>
      </Link> 
      <div className='corpo'>
      <div className='card'>

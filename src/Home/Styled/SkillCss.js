@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SkillCss = styled.div`
 .conteiner{
-    margin-top: 200px !important;
+    text-align: center;
 }
 .card-corpo{
     max-width: 1000px;

@@ -8,6 +8,10 @@ export const MenuCss = styled.div`
     justify-content: center;
     align-items: center;
     height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 .card{
     background-color:  #fff;
     width: 300px;
