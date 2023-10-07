@@ -42,9 +42,7 @@ export const SkillCss = styled.div`
     }
 }
 @media only screen and (max-width: 1200px){
-    .conteiner{
-        margin-top: 2400px !important;
-    }
+   
     .card{
     height: 560px;
     max-width: 500px;
