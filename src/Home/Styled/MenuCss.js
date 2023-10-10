@@ -76,6 +76,10 @@ export const MenuCss = styled.div`
         padding: 10px;
         border-radius: 20px;
     }
+    button:hover{
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        transition: 0.5s ease, color 0.5s ease;
+    }
 }
 
 .opc{
