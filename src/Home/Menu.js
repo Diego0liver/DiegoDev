@@ -12,7 +12,7 @@ import You from '../img/youtube.png'
 
 const Menu = () => {
 
-  const linkWhatsApp = 'https://wa.me/5544997087807'
+  const linkWhatsApp = 'https://wa.me/5544991763101'
   const enderecoEmail = 'diegoju95@hotmail.com'
   const abrirLink = () => {
     window.open(linkWhatsApp, '_blank');
