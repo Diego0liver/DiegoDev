@@ -54,7 +54,7 @@ const Menu = () => {
            <hr className='hr'/>
 
            <div className='opc'>
-            <a href='https://drive.google.com/file/d/1TVx5G-W2jE-8Gv0nSGwfauPskvvdKGa8/view?usp=sharing' target="_blank" rel="noopener noreferrer">
+            <a href='https://drive.google.com/file/d/1APWDbkokkbgXYOVFs24U2noA14cn_gqZ/view?usp=sharing' target="_blank" rel="noopener noreferrer">
            <img alt='curriculo' title="Currículo" src={Curriculo} width='25' height='25' />
            </a>
             <p>•</p>
