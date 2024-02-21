@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { MenuCss } from './Styled/MenuCss'
 import Linkdin from '../img/linkdin.png'
 import Github from '../img/github.png'
-import Eu from '../img/eu.jpg'
+import Eu from '../img/eu2024.jpg'
 import Facu from '../img/facu.png'
 import Curriculo from '../img/curriculo.png'
 import Code from '../img/code.png'
@@ -13,7 +13,7 @@ import You from '../img/youtube.png'
 const Menu = () => {
 
   const linkWhatsApp = 'https://wa.me/5544991763101'
-  const enderecoEmail = 'diegoju95@hotmail.com'
+  const enderecoEmail = 'diegojof95@hotmail.com'
   const abrirLink = () => {
     window.open(linkWhatsApp, '_blank');
   };
@@ -54,7 +54,7 @@ const Menu = () => {
            <hr className='hr'/>
 
            <div className='opc'>
-            <a href='https://drive.google.com/file/d/1TVx5G-W2jE-8Gv0nSGwfauPskvvdKGa8/view?usp=sharing' target="_blank" rel="noopener noreferrer">
+            <a href='https://drive.google.com/file/d/1O0JqT0CBZqDIkOOdUx3lgFjSem4L8gJ3/view?usp=drive_link' target="_blank" rel="noopener noreferrer">
            <img alt='curriculo' title="Currículo" src={Curriculo} width='25' height='25' />
            </a>
             <p>•</p>

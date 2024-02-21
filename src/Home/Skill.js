@@ -51,7 +51,7 @@ const Skill = () => {
         Conhecimento em <b>JavaScript</b> com criacao de variaveis, funcoes, arrays, manipulacao de arrays, com filter,
         reduce, map, forEtch, some, slice, toString, length, find... Conhecimento em callback, manipulacao de API,
         localStorege, Json, props, Datas, async/await, promise, loop, if/else, try/catch e tratamento 
-        de erros. <br/><b>Typescript</b> para tipagem. <br /></p>
+        de erros. <br/><b>Typescript</b> para tipagem e basico <b>JQuey</b>. <br /></p>
         <a href='https://drive.google.com/file/d/1NuVdXPHVZ5Nn1Js7ZOtmqbl1l6ov7jcH/view?usp=share_link' >
             Certificado</a>
     </div>
@@ -90,7 +90,8 @@ const Skill = () => {
         <p>
         Conhecimento em <b>Php</b>, criacao de MVC com
         padrao de projeto Poo e PDO. <b>Laravel</b> para criacao de API crud,
-         relacionamento de tabelas de banco de dados, login, token Sanctum, Migration, Model, Controller e rotas.
+         relacionamento de tabelas de banco de dados, login, token Sanctum, Migration, Model, Controller e rotas.<br/>
+         Basico em <b>LiveWire</b>.
          </p>
     </div>
 
@@ -103,7 +104,7 @@ const Skill = () => {
         <p>
         Conhecimento em <b>git</b> para interagir com a ferramenta <b>github</b> através de comandos como,
         git commit, init, git clone, branch, git add, push, origin e deploy.<br/>
-        Conhecimento em ferramenta de gestão ágil de projetos <b>Jira</b>.
+        Conhecimento em ferramenta de gestão ágil de projetos <b>Jira</b> e <b>Trello</b>.
         </p>
     </div>
          </div>
