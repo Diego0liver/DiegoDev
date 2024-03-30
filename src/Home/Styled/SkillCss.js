@@ -31,7 +31,7 @@ export const SkillCss = styled.div`
     }
 }
 .img-tec{
-    background-color: #5d6ba7;
+    background: #7d916d;
     border-radius:10% 10% 99% 20% / 10% 10% 30% 53%;
     display: flex;
     justify-content: center;

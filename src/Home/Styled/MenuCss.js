@@ -12,12 +12,14 @@ export const MenuCss = styled.div`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
 .card{
-    background-color:  #fff;
-    width: 300px;
-    height: 360px;
+    background-color: #fff;
+    width: 400px;
+    height: 460px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
 }
 .eu{
     width: 100px;
@@ -25,12 +27,12 @@ export const MenuCss = styled.div`
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, #fff 0px 0px 0px 3px;
 }
 .imgTopo{
-    background-color: #5d6ba7;
+    background: linear-gradient(0deg, rgba(211,149,87,1) 0%, rgba(125,145,109,1) 64%);
     border-radius:10% 10% 99% 20% / 10% 10% 30% 53%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px
+    padding: 10px;
 }
 .nome{
     text-align:center;
@@ -43,18 +45,17 @@ export const MenuCss = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    img{
-       padding: 10px;
-       width: 20px;
-       height: 20px;
-    }
     p{
-       color:  #4f4f4f;
-       font-style: italic;
-       font-size: 13px;
-       margin: 0;
+        color: #5f5f5f;
+        font-style: italic;
+        font-size: 13px;
+        margin: 0;
     }
+    .fa-graduation-cap{
+        color: #5f5f5f;
+      }
 }
+
 .redSocial{
     display: flex;
     justify-content: center;
@@ -70,14 +71,14 @@ export const MenuCss = styled.div`
     button{
         margin: 10px;
         color: #fff;
-        background-color: #5d6ba7;
+        background-color: #5e7354;
         border: none;
         cursor: pointer;
         padding: 10px;
         border-radius: 20px;
     }
     button:hover{
-        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        box-shadow: rgb(208,149,87) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
         transition: 0.5s ease, color 0.5s ease;
     }
 }
@@ -100,10 +101,32 @@ export const MenuCss = styled.div`
   background-color: #ccc; 
 }
 
+.fundoIcon{
+    color:#5e7354;
+    font-size: 45px;
+    margin: 10px;
+    padding:0px;
+    border-radius: 5px;
+}
+.fundoIcon:hover{
+    box-shadow: rgb(208,149,87) 0px 20px 30px -10px;
+    transition: 0.5s ease, color 0.5s ease;
+}
+
+.dev-info{
+    color: #5e73548c;
+    font-size 30px
+}
+.dev-info:hover{
+    box-shadow: rgb(208,149,87) 0px 20px 30px -10px;
+    transition: 0.5s ease, color 0.5s ease;
+}
+
+
 @media only screen and (max-width: 1200px){
     .card{
         width: 700px;
-        height: 780px;
+        height: 900px;
     }
 
     .eu{
@@ -126,13 +149,8 @@ export const MenuCss = styled.div`
            font-size: 33px;
         }
     }
-    .redSocial{
-        img{
-            padding: 7px;
-            cursor: pointer;
-            width: 55px;
-           height: 55px;
-        }
+    .fundoIcon{
+        font-size: 73px;
     }
     
     .contatos{
@@ -155,6 +173,10 @@ export const MenuCss = styled.div`
       width: 90%;
       height: 1px; 
       background-color: #ccc; 
+    }
+    .dev-info{
+        font-size: 70px;
+        margin-top: 15px;
     }
 }
 `

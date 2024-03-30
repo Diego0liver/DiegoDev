@@ -8,7 +8,8 @@ body, html {
   
 }
 h1{
-  color: #5d6ba7;
+  color:#7d916d;
+  text-shadow: 2px 2px 5px rgb(250,250,250);
 }
 .imagem-de-fundo {
   position: fixed; 
@@ -20,7 +21,8 @@ h1{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: -1; 
+  z-index: -1;
+  filter: blur(2px);
 }
 ::-webkit-scrollbar{
   background-color: #fafafa;

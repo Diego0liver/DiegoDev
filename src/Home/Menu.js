@@ -1,14 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { MenuCss } from './Styled/MenuCss'
-import Linkdin from '../img/linkdin.png'
-import Github from '../img/github.png'
 import Eu from '../img/eu2024.jpg'
-import Facu from '../img/facu.png'
-import Curriculo from '../img/curriculo.png'
-import Code from '../img/code.png'
-import Skill from '../img/ling.png'
-import You from '../img/youtube.png'
+import '@fortawesome/fontawesome-free/css/all.css';
 
 const Menu = () => {
 
@@ -19,55 +13,57 @@ const Menu = () => {
   };
   return (
     <MenuCss>
-       <div class="imagem-de-fundo"></div>
-       <div className='conteiner'>
-         <div className='card'>
-           <div className='imgTopo'>
-            <img alt='diego' src={Eu} className='eu' />
-           </div>
-           
-            <p className='nome'>Diego Oliveira</p>
-            <div className='facu'>
-              <img alt='facu' src={Facu} />
-              <p>Análise desenvolvimento de sistema<br/></p>
+        <div className="imagem-de-fundo"></div>
+        <div className='conteiner'>
+          <div className='card'>
+            <div className='imgTopo'>
+              <img alt='diego' src={Eu} className='eu' />
             </div>
+              <p className='nome'>Diego Oliveira</p>
+              <div className='conteinerFacu'>
+                <div className='facu'>
+                  <p>Análise desenvolvimento de sistema</p>
+                </div>
+                <div className='facu'>
+                  <p><i class="fa-solid fa-graduation-cap"></i>UNESA</p>
+                </div>
+              </div>
+              <hr className='hr'/>
+            <div className='redSocial'>
+              <a href='https://github.com/Diego0liver' target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-square-github fundoIcon"></i>
+              </a>
+              <a href='https://www.linkedin.com/in/diego-oliveira-fonseca/' target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin fundoIcon"></i>
+              </a>
+              <a href='https://www.youtube.com/channel/UCRuXFNX9XQcSsWDyIubzbGg' target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-square-youtube fundoIcon"></i>
+              </a>
+            </div>
+            <div className='contatos'>
+            <button onClick={abrirLink}><i class="fa-brands fa-whatsapp"></i>&nbsp;WhatsApp</button>
+              <a href={`mailto:${enderecoEmail}`}>
+            <button><i class="fa-regular fa-envelope"></i>&nbsp;E-mail</button>
+            </a>
+            </div>
+            
+            <hr className='hr'/>
 
-           <div className='redSocial'>
-           <a href='https://github.com/Diego0liver' target="_blank" rel="noopener noreferrer">
-           <img alt='gitHub' src={Github} width='35' height='35' title='GitHub'/>
-           </a>
-           <a href='https://www.linkedin.com/in/diego-oliveira-fonseca/' target="_blank" rel="noopener noreferrer">
-           <img alt='link' src={Linkdin} width='35' height='35' title='Linkedin'/>
-           </a>
-           <a href='https://www.youtube.com/channel/UCRuXFNX9XQcSsWDyIubzbGg' target="_blank" rel="noopener noreferrer">
-           <img alt='zap' src={You} width='33' height='33' title='YouTube'/>
-           </a>
-           </div>
-           
-           <div className='contatos'>
-           <button onClick={abrirLink}>WhatsApp</button>
-           <a href={`mailto:${enderecoEmail}`}>
-           <button>E-mail</button>
-           </a>
-           </div>
-           
-           <hr className='hr'/>
-
-           <div className='opc'>
-            <a href='https://drive.google.com/file/d/1O0JqT0CBZqDIkOOdUx3lgFjSem4L8gJ3/view?usp=drive_link' target="_blank" rel="noopener noreferrer">
-           <img alt='curriculo' title="Currículo" src={Curriculo} width='25' height='25' />
-           </a>
-            <p>•</p>
-            <Link to="/skill">
-           <img alt='skill' src={Skill} title="Linguagem de programação" width='24' height='24'/>
-            </Link>
-            <p>•</p>
-            <Link to='/projetos'>
-           <img alt='code' src={Code} width='25' height='25' title='Projetos' />
-            </Link>
-           </div>
-         </div>  
-       </div>
+            <div className='opc'>
+              <a href='https://drive.google.com/file/d/1O0JqT0CBZqDIkOOdUx3lgFjSem4L8gJ3/view?usp=drive_link' target="_blank" rel="noopener noreferrer">
+                <i class="fa-regular fa-file dev-info"></i>
+              </a>
+                <p>•</p>
+                <Link to="/skill">
+                  <i class="fa-regular fa-file-code dev-info"></i>
+                </Link>
+                <p>•</p>
+                <Link to='/projetos'>
+                  <i class="fa-solid fa-laptop-code dev-info"></i>
+                </Link>
+              </div>
+            </div>  
+        </div>
     </MenuCss>
   )
 }
