@@ -2,7 +2,13 @@ import styled from "styled-components";
 
 export const SkillCss = styled.div`
 .conteiner{
-    text-align: center;
+   
+}
+b{
+    margin-left: 210px;
+    font-size: 20px;
+    font-style: italic;
+    color: #a7b2a1
 }
 .card-corpo{
     max-width: 1000px;
@@ -12,14 +18,12 @@ export const SkillCss = styled.div`
     flex-wrap:wrap;
 }
 .card{
-    height: 345px;
-    max-width: 300px;
-    background-color: #fafafa;
+    background: linear-gradient(0deg, rgba(211,149,87,1) 0%, rgba(125,145,109,1) 64%);
+    width: 200px;
+    height: 200px;
     margin: 10px !important;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 10px;
     p{
         padding-left: 10px;
         padding-right: 10px;
@@ -29,23 +33,30 @@ export const SkillCss = styled.div`
         padding-left: 10px;
         padding-right: 10px;
     }
-}
-.img-tec{
-    background: #7d916d;
-    border-radius:10% 10% 99% 20% / 10% 10% 30% 53%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    img{
-        width: 30px;
-        padding: 5px;
+    li{
+        font-size: 14px
+    }
+    h5{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
+.img-tec{
+    .tec-icon{
+        font-size: 40px;
+        padding: 5px;
+        color:#a7b2a1;
+    }
+}
+.btn-voltar{
+    font-size: 40px;
+    padding: 5px;
+    color:#a7b2a1;
+}
 @media only screen and (max-width: 1200px){
-   
     .card{
-    height: 560px;
-    max-width: 500px;
+    height: 200px;
+    max-width: 200px;
     padding: 10px;
     margin: 5px;
     margin-left: auto;

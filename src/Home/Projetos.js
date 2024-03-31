@@ -20,22 +20,22 @@ import Laravel from '../img/laravel.jpg'
 import vue from '../img/vue.png'
 import ControleMEsa from '../img/controle.png'
 import { Link } from 'react-router-dom';
-import Voltar from '../img/voltar.png'
 import Car from '../img/alugarCarro.png'
 
 const Projetos = () => {
   return (
     <ProjetoCss>
+      <div className='imagem-de-fundo'></div>
     <div className='conteiner'>
-     <h1>Projetos</h1>
      <Link to="/" >  
-    <img alt='voltar' className='voltar' src={Voltar} ></img>
+      <i class="fa-solid fa-square-caret-left btn-voltar"></i>
      </Link> 
+    <b>Projetos de estudos</b>
      <div className='corpo'>
      <div className='card'>
        <h3>Sistema de Restaurante</h3>
        <hr />
-       <img alt='react' className='img' src={ControleMEsa} ></img>
+       <img alt='react' style={{marginLeft: '55px'}} className='img' src={ControleMEsa} ></img>
        <div>
        <img alt='react' style={{width:30, margin:10}} src={ReactJs} ></img>
        <img alt='ts' style={{width:30, margin:10}} src={Laravel} ></img>
@@ -51,7 +51,7 @@ const Projetos = () => {
       <div className='card'>
        <h3>Sistema aluguel de carro FullStack</h3>
        <hr />
-       <img alt='react' className='img' src={Car} ></img>
+       <img alt='react' style={{marginLeft: '55px'}} className='img' src={Car} ></img>
        <div>
        <img alt='react' style={{width:30, margin:10}} src={ReactJs} ></img>
        <img alt='vue' style={{width:30, margin:10}} src={vue} ></img>
@@ -174,14 +174,8 @@ const Projetos = () => {
        <a href='https://github.com/Diego0liver/ApiLaravelRelacionamento1pN-Np1'><button>Codigo</button></a>
        </div>
       </div>
-
-
      </div>
-
-     <a href='https://github.com/Diego0liver?tab=repositories'><button className='mais-proj'>Mais projetos!</button></a>
     </div>
-
-
     </ProjetoCss>
 
   )

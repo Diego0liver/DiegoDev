@@ -4,15 +4,14 @@ import styled from "styled-components";
 
 export const ProjetoCss = styled.div`
 .conteiner{
-    background-color: #fafafa;
-    border: 1px solid #e4e4e4;
+    background-color:rgba(255, 255, 255, 0.5); ;
+    border: 1px solid #ae7b48;
     max-width: 1200px;
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
     button{
-        background-color: #5d6ba7;
+        background-color: #5e7354;
         color: white;
         font-weight: bold;
         border: none;
@@ -22,15 +21,13 @@ export const ProjetoCss = styled.div`
         margin: 10px;
         transition: all .8s;
         :hover{
-            background-color: #252d4e;
+            background-color: #9f9365;
             box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
         }
     }
-    h1{
-        border-left: 4px solid #5d6ba7;
-        width: 500px;
-        margin-left: auto;
-        margin-right: auto;
+    b{
+        color: #758a6a;
+        margin-left: 20px
     }
 }
 p{
@@ -39,6 +36,7 @@ p{
 }
 .corpo{
     display:flex;
+    text-align: center;
     justify-content:center;
     flex-direction: row;
     flex-wrap:wrap ;
@@ -50,7 +48,7 @@ p{
     margin: 5px;
     border-radius: 3px;
     button{
-        background-color: #5d6ba7;
+        background-color: #5e7354;
         color: white;
         border: none;
         padding: 10px;
@@ -60,10 +58,11 @@ p{
     }
 }
 .card{
-    background-color: #fafafa;
+    background-color:rgb(250,250,250, 0.7);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     border-radius: 5px;
     max-width: 400px;
+    text-align: center;
     padding: 5px;
     margin-bottom: 10px;
     margin: 10px;
@@ -72,19 +71,20 @@ p{
     }
 }
 .img{
-    width:300px;
+    width:250px;
+    margin-left: 10px;
     border-radius: 5px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 hr{
         width: 50px;
         height: 3px;
-        background-color:#5d6ba7;
+        background-color:#5e7354;
         border: none
     }
  .btns{
     button{
-        background-color: #5d6ba7;
+        background-color: #5e7354;
         color: white;
         font-weight: bold;
         border: none;
@@ -94,6 +94,11 @@ hr{
         margin: 10px;
     }
  } 
+ .btn-voltar{
+    font-size: 40px;
+    padding: 5px;
+    color:#758a6a;
+}
 
  @media only screen and (max-width: 1200px){
   
