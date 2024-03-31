@@ -50,7 +50,7 @@ const Menu = () => {
             <hr className='hr'/>
 
             <div className='opc'>
-              <a href='https://drive.google.com/file/d/1O0JqT0CBZqDIkOOdUx3lgFjSem4L8gJ3/view?usp=drive_link' target="_blank" rel="noopener noreferrer">
+              <a href='https://drive.google.com/file/d/1O0JqT0CBZqDIkOOdUx3lgFjSem4L8gJ3/view?usp=sharing' target="_blank" rel="noopener noreferrer">
                 <i class="fa-regular fa-file dev-info"></i>
               </a>
                 <p>•</p>
