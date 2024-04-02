@@ -58,9 +58,10 @@ const Menu = () => {
                   <i class="fa-regular fa-file-code dev-info"></i>
                 </Link>
                 <p>•</p>
-                <Link to='/projetos'>
+                <a href='https://github.com/Diego0liver?tab=repositories' target='_blank'>
                   <i class="fa-solid fa-laptop-code dev-info"></i>
-                </Link>
+                </a>
+                
               </div>
             </div>  
         </div>
