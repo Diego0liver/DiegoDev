@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { MenuCss } from './Styled/MenuCss'
-import Eu from '../img/eu2024.jpg'
+import Eu from '../img/eu2024.png'
 import '@fortawesome/fontawesome-free/css/all.css';
 
 const Menu = () => {
