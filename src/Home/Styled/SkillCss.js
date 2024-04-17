@@ -16,17 +16,21 @@ b{
     margin-left: auto;
     margin-right: auto;
     flex-wrap:wrap;
+    text-align:center;
+}
+.ponto{
+    color: #a7b2a1;
 }
 .card{
-    background: linear-gradient(0deg, rgba(211,149,87,1) 0%, rgba(125,145,109,1) 64%);
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 50px;
     margin: 10px !important;
     margin-left: auto;
     margin-right: auto;
+    border: none;
+   
     p{
-        padding-left: 10px;
-        padding-right: 10px;
+      color: #a7b2a1;
     }
     a{
         text-decoration: none;
@@ -45,7 +49,8 @@ b{
     .tec-icon{
         font-size: 40px;
         padding: 5px;
-        color:#a7b2a1;
+        color:
+        RGB(109 127 101);
     }
 }
 .btn-voltar{
