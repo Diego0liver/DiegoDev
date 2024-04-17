@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { MenuCss } from './Styled/MenuCss'
-import Eu from '../img/eu2024.jpg'
+import Eu from '../img/eu2024.png'
 import '@fortawesome/fontawesome-free/css/all.css';
 
 const Menu = () => {
@@ -67,7 +67,7 @@ const Menu = () => {
             <hr className='hr'/>
 
             <div className='opc'>
-              <a href='https://drive.google.com/file/d/1O0JqT0CBZqDIkOOdUx3lgFjSem4L8gJ3/view?usp=drive_link' target="_blank" rel="noopener noreferrer">
+              <a href='https://drive.google.com/file/d/1O0JqT0CBZqDIkOOdUx3lgFjSem4L8gJ3/view?usp=sharing' target="_blank" rel="noopener noreferrer">
                 <i class="fa-regular fa-file dev-info"></i>
               </a>
                 <p>•</p>
@@ -75,9 +75,10 @@ const Menu = () => {
                   <i class="fa-regular fa-file-code dev-info"></i>
                 </Link>
                 <p>•</p>
-                <Link to='/projetos'>
+                <a href='https://github.com/Diego0liver?tab=repositories' target='_blank'>
                   <i class="fa-solid fa-laptop-code dev-info"></i>
-                </Link>
+                </a>
+                
               </div>
             </div>  
         </div>

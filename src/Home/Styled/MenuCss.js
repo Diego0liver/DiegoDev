@@ -48,7 +48,7 @@ export const MenuCss = styled.div`
     p{
         color: #5f5f5f;
         font-style: italic;
-        font-size: 13px;
+        font-size: 15px;
         margin: 0;
     }
     .fa-graduation-cap{

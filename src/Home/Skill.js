@@ -10,7 +10,6 @@ const Skill = () => {
             <Link to="/" > 
                 <i class="fa-solid fa-square-caret-left btn-voltar"></i>
             </Link>
-            <b>Skill</b>
             <div className='card-corpo'>
                 <div className='card'>
                     <div className='img-tec'>
