@@ -15,7 +15,7 @@ const Menu = () => {
   return (
     <MenuCss>
         <div className="imagem-de-fundo"></div>
-        <div className='conteiner'>
+        <div className='conteiners'>
           <div className='card'>
             <div className='imgTopo'>
               <img alt='diego' src={Eu} className='eu' />
@@ -71,58 +71,58 @@ const Menu = () => {
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">Skill's</h1>
+                  <h1 class="modal-title fs-5 text-secondary" id="exampleModalLabel">Skill's</h1>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  
-                <div className='card-corpo'>
-                  <div className='card'>
-                      <div className='img-tec'>
-                          <i class="fa-brands fa-html5 tec-icon"></i>
-                          <i class="fa-brands fa-css3-alt tec-icon"></i>
+                    <div class="list-group">
+                      <div class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">HTML/CSS</h5>
+                          <small><i class="fa-brands fa-html5 fa-2x text-secondary"></i>&nbsp;<i class="fa-brands fa-css3-alt fa-2x text-secondary"></i></small>
+                        </div>
                       </div>
-                  </div>
-                  <p className='mt-4 ponto'>•</p>
-                  <div className='card'>
-                      <div className='img-tec'>
-                          <i class="fa-brands fa-php tec-icon"></i>
-                          <i class="fa-brands fa-laravel tec-icon"></i>
+                      <div class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">Php/Laravel</h5>
+                          <small class="text-muted"><i class="fa-brands fa-php fa-2x text-secondary"></i>&nbsp;<i class="fa-brands fa-laravel fa-2x text-secondary"></i></small>
+                        </div>
                       </div>
-                  </div>
-                  <p className='mt-4 ponto'>•</p>
-                  <div className='card'>
-                      <div className='img-tec'>
-                          <i class="fa-brands fa-js tec-icon"></i>
-                          <i class="fa-solid fa-database tec-icon"></i>
+                      <div class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">JavaScript/JQuery</h5>
+                          <small class="text-muted"><i class="fa-brands fa-square-js fa-2x text-secondary"></i></small>
+                        </div>
                       </div>
-            </div>
-            
-        <div className='card'>
-            <div className='img-tec'>
-                <i class="fa-brands fa-react tec-icon"></i>
-                <i class="fa-brands fa-vuejs tec-icon"></i>
-            </div>
-        </div>
-        <p className='mt-4 ponto'>•</p>
-        <div className='card'>
-            <div className='img-tec'>
-                <i class="fa-brands fa-git-alt tec-icon"></i>
-                <i class="fa-brands fa-github tec-icon"></i>
-            </div>
-        </div>
-        <p className='mt-4 ponto'>•</p>
-        <div className='card'>
-            <div className='img-tec'>
-              <i class="fa-brands fa-trello tec-icon"></i>
-              <i class="fa-brands fa-jira tec-icon"></i>
-            </div>
-        </div>
-            </div>
+                      <div class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">ReactJs/VueJs</h5>
+                          <small class="text-muted"><i class="fa-brands fa-react fa-2x text-secondary"></i>&nbsp;<i class="fa-brands fa-vuejs fa-2x text-secondary"></i></small>
+                        </div>
+                      </div>
+                      <div class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">Git/GitHub</h5>
+                          <small class="text-muted"><i class="fa-brands fa-git fa-2x text-secondary"></i>&nbsp;<i class="fa-brands fa-github fa-2x text-secondary"></i></small>
+                        </div>
+                      </div>
+                      <div class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">Banco de dados MySQL</h5>
+                          <small class="text-muted"><i class="fa-solid fa-database fa-2x text-secondary"></i></small>
+                        </div>
+                      </div>
+                      <div class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">Trello/Jira</h5>
+                          <small class="text-muted"><i class="fa-brands fa-trello fa-2x text-secondary"></i>&nbsp;<i class="fa-brands fa-jira fa-2x text-secondary"></i></small>
+                        </div>
+                      </div>
+                    </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
         </SkillCss>
     </MenuCss>
   )
